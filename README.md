@@ -1,5 +1,3 @@
-# Interactive Safety Graphics
-
 ## Overview 
 
 This is the homepage for the Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. The ISG team’s first deliverable is a workflow to monitor for hepatoxicity using a new [safetyGraphics R package](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics) and a [well-documented clinical workflow]() based on the safety clinician’s monitoring practice. You can try the interactive prototype [here](https://asa-dia-interactivesafetygraphics.github.io/safety-eDISH/test/).

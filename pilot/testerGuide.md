@@ -1,4 +1,4 @@
-# eDish Testing Guide
+# Alpha/Beta Testing Guide
  
 ## Objective
 
@@ -24,8 +24,8 @@ First, we’d like to get some clinical feedback on the graphic using a demo dat
 ### Step-By-Step [Total Time Required: 30 minutes to 1 hour]
 
 1. Open the eDish graphic in your web-browser at [this link](https://asa-dia-interactivesafetygraphics.github.io/safety-eDISH/test/). We recommend avoiding Internet Explorer if at all possible. 
-2. Open the clinical workflow document [at this link](), and use it’s guidance (in combination with your own clinical expertise) to review the data shown in the chart. 
-3. Complete the survey [link]
+2. Download the clinical workflow document [at this link](https://github.com/ASA-DIA-InteractiveSafetyGraphics/ASA-DIA-InteractiveSafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx), and use it’s guidance (in combination with your own clinical expertise) to review the data shown in the chart. 
+3. Complete [the survey](https://www.surveymonkey.com/r/BWPZB7V). 
 
 ## Evaluation 2: Evaluating the eDish graphic using your organization’s data 
 
@@ -35,15 +35,16 @@ Next, we’d like you to load some data from your organization into the tool usi
 
 1. [All Users] Identify a lab data set to use for the test. The data should be “long” (one record per person per visit per lab test) instead of wide. If you’ve got ADaM or SDTM data, that’s ideal. 
 2. [Technical User] Install the most recent versions of R and RStudio if you haven’t already.
-3. [Technical User] We’ll be using the new safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this “Shiny Application User Guide” Vignette before getting started. 
+3. [Technical User] We’ll be using the new safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this [“Shiny Application User Guide” Vignette](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) before getting started. 
 4. [Technical User] Using the vignette as a guide, open up the app, load your data, update the settings as needed, and export a copy of the eDish plot. 
 5. [All Users] Share the exported html graphic with the testing team at your organization, and play with the graphic. 
-6. [All Users] Fill out the survey
+6. [All Users] Fill out [the survey](https://www.surveymonkey.com/r/BS6FHDH)
 
 ## Notes
 
 Note that although you will be viewing your data in a web browser, both the shiny application and the exported reports are self-contained and do not send data to the internet. 
-The R package is very much under development so if you find problems please let us know. Email us, file an issue on github or send a meeting invite and we’ll talk you through it!
+
+The R package is very much under development so if you find problems please let us know. Email us, [file an issue on github](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics/) or send a meeting invite and we’ll talk you through it!
  
 ## Disclaimer
 

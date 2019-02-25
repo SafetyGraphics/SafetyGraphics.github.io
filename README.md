@@ -22,12 +22,34 @@ The safetyGraphics R package that allows users to evaluate clinical trial safety
 - View the [vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
 - Explore the [github repo](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics) for the package
 - Check out the underlying [javascript library](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safety-eDISH) used to create the [eDish Chart](https://asa-dia-interactivesafetygraphics.github.io/safety-eDISH/)
+- See [the poster](https://github.com/RhoInc/RStudioConf2019-ePoster/) we presented at RStudio::conf(2019)
 - Try out a hosted version of the [shiny app](https://becca-krouse.shinyapps.io/safetyGraphicsApp/) (or run it locally using the code in the capsule summary above)
 - Check out [other interactive graphics](https://rhoinc.github.io/safety-explorer-suite/) for safety monitoring.  We also wrote [a paper](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846) about these. Our plan is to add some of them to SafetyGraphics package in future releases.
 - Take a look at the [technical framework](https://user-images.githubusercontent.com/3680095/51296179-6f2b7b00-19e0-11e9-841a-afc2964a7e1a.png) being used to create the chart
 - See the Shiny App in action below: 
 
 ![edishapp-take2_smallish](https://user-images.githubusercontent.com/3680095/51296057-e3195380-19df-11e9-971a-430c3be930a4.gif)
+
+## Motivation
+
+Clinical trial research is highly regulated and notoriously slow moving. As a result, modern data analysis tools and techniques that have become commonplace in other industries have struggled to achieve broad or consistent adoption. Our group seeks to allow clinical trial researchers to interact with their data using tools that are free, reproducible, customizable, and easy to use. Our tools typically combine JavaScript-based interactive graphics with a flexible R data pipeline built for existing clinical data standards. This flexible technical framework, combined with an open source development workflow in GitHub, may provide a useful road map for creating similar tools in other change-resistant environments.
+
+### Problems
+- Clinical trial research is highly regulated and notoriously slow moving. 
+- Manual review of huge data listings is still common. 
+- Existing analysis tools are expensive, difficult to customize and tend to use proprietary formats, limiting reproducibility. 
+
+### Solutions
+
+We're working to create interactive tools that are:
+- **Open Source** - Transparent. Customizable. Free!
+- **Interactive** - Users can explore their data.
+- **Easy to Use** - Just open up a webpage. 
+- **Easy to Configure** - Streamlined configuration with R.  
+- **Compliant with Data Standards** - Support ADaM and SDTM by default.
+- **Highly Collaborative** - Clinicians and Programmers working together.
+- **Agile** - Frequent releases with GitHub. 
+- **Engaging** - Regular Feedback from users. Pilot testing. Open issue tracking. 
 
 ## About the Team
 

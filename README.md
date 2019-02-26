@@ -6,9 +6,10 @@ This is the homepage for the Interactive Safety Graphics (ISG) subteam of the AS
 
 ### Alpha/Beta testing
 
-Alpha and Beta testing for the hepatoxicity graphics is underway! Resources for testers are below. Start by reading through the step-by-step instructions in [Tester Guide](./pilot/testerGuide)!
+Alpha and Beta testing for the hepatoxicity graphics is underway, and a list of resources is provided below. Step-by-step instructions for testers are included in the [Tester Guide](./pilot/testerGuide).
 
-- [Tester Email](./pilot/introEmail) and [Tester Guide](./pilot/testerGuide)
+- [Tester Guide](./pilot/testerGuide)
+- [Tester Email](./pilot/introEmail)  
 - [SafetyGraphics User Guide](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide)
 - [Clinical Workflow](https://github.com/ASA-DIA-InteractiveSafetyGraphics/ASA-DIA-InteractiveSafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) (download word document)
 - [Demo Data Survey](https://www.surveymonkey.com/r/BWPZB7V) and [User Data Survey](https://www.surveymonkey.com/r/BS6FHDH)

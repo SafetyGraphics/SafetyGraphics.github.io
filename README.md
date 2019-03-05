@@ -13,7 +13,6 @@ Alpha and Beta testing for the hepatoxicity graphics is underway, and a list of 
 - [SafetyGraphics User Guide](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide)
 - [Clinical Workflow](https://github.com/ASA-DIA-InteractiveSafetyGraphics/ASA-DIA-InteractiveSafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) (download word document)
 - [Demo Data Survey](https://www.surveymonkey.com/r/BWPZB7V) and [User Data Survey](https://www.surveymonkey.com/r/BS6FHDH)
-- [Tester List](https://docs.google.com/document/d/17JKAuu-aJjwzvyENtkf9y-G_nPqvNsbOiazDuhbnwoM/edit)
 
 ### safetyGraphics R Package
 

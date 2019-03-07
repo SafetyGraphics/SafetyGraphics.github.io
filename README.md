@@ -1,6 +1,6 @@
 ## Background 
 
-This is the homepage for the Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. The ISG team’s first deliverable is a workflow to monitor for hepatoxicity using the new [safetyGraphics R package](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics) and a [well-documented clinical workflow](https://github.com/ASA-DIA-InteractiveSafetyGraphics/ASA-DIA-InteractiveSafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) based on the safety clinician’s monitoring practice. You can try out the interactive eDish graphic used in the R package [here](https://asa-dia-interactivesafetygraphics.github.io/safety-eDISH/test/).
+This is the homepage for the Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. The ISG team’s first deliverable is a workflow to monitor for hepatoxicity using the new [safetyGraphics R package](https://github.com/SafetyGraphics/safetyGraphics) and a [well-documented clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) based on the safety clinician’s monitoring practice. You can try out the interactive eDish graphic used in the R package [here](https://safetygraphics.github.io/safety-eDISH/test/).
 
 ## Resources
 
@@ -10,8 +10,8 @@ Alpha and Beta testing for the hepatoxicity graphics is underway, and a list of 
 
 - [Tester Guide](./pilot/testerGuide)
 - [Tester Email](./pilot/introEmail)  
-- [SafetyGraphics User Guide](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide)
-- [Clinical Workflow](https://github.com/ASA-DIA-InteractiveSafetyGraphics/ASA-DIA-InteractiveSafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) (download word document)
+- [SafetyGraphics User Guide](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide)
+- [Clinical Workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) (download word document)
 - [Demo Data Survey](https://www.surveymonkey.com/r/BWPZB7V) and [User Data Survey](https://www.surveymonkey.com/r/BS6FHDH)
 
 ### safetyGraphics R Package
@@ -20,8 +20,8 @@ The safetyGraphics R package that allows users to evaluate clinical trial safety
 
 - See the package on [CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html)
 - View the [vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
-- Explore the [github repo](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safetyGraphics) for the package
-- Check out the underlying [javascript library](https://github.com/ASA-DIA-InteractiveSafetyGraphics/safety-eDISH) used to create the [eDish Chart](https://asa-dia-interactivesafetygraphics.github.io/safety-eDISH/)
+- Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package
+- Check out the underlying [javascript library](https://github.com/SafetyGraphics/safety-eDISH) used to create the [eDish Chart](https://safetygraphics.github.io/safety-eDISH/)
 - See [the poster](https://github.com/RhoInc/RStudioConf2019-ePoster/) we presented at RStudio::conf(2019)
 - Try out a hosted version of the [shiny app](https://becca-krouse.shinyapps.io/safetyGraphicsApp/) (or run it locally using the code in the capsule summary above)
 - Check out [other interactive graphics](https://rhoinc.github.io/safety-explorer-suite/) for safety monitoring.  We also wrote [a paper](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846) about these. Our plan is to add some of them to SafetyGraphics package in future releases.

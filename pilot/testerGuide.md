@@ -25,7 +25,7 @@ First, we’d like to get some clinical feedback on the graphic using a demo dat
 
 1. Open the eDish graphic in your web-browser at [this link](https://safetygraphics.github.io/safety-eDISH/test/). We recommend avoiding Internet Explorer if at all possible. 
 2. Download the clinical workflow document [at this link](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx), and use it’s guidance (in combination with your own clinical expertise) to review the data shown in the chart. 
-3. Complete [the survey](https://www.surveymonkey.com/r/BWPZB7V). 
+3. Complete <a href="https://www.surveymonkey.com/r/BWPZB7V" target="_blank">the survey</a>. 
 
 ## Evaluation 2: Evaluating the eDish graphic using your organization’s data 
 
@@ -38,7 +38,7 @@ Next, we’d like you to load some data from your organization into the tool usi
 3. [Technical User] We’ll be using the new safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this [“Shiny Application User Guide” Vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) before getting started. 
 4. [Technical User] Using the vignette as a guide, open up the app, load your data, update the settings as needed, and export a copy of the eDish plot. 
 5. [All Users] Share the exported html graphic with the testing team at your organization, and play with the graphic. 
-6. [All Users] Fill out [the survey](https://www.surveymonkey.com/r/BS6FHDH)
+6. [All Users] Fill out <a href="https://www.surveymonkey.com/r/BS6FHDH" target="_blank">the survey</a>.
 
 ## Notes
 

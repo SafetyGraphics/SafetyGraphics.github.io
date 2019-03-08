@@ -33,12 +33,12 @@ Next, we’d like you to load some data from your organization into the tool usi
 
 ### Step-by-step [Total Time Required: 1 hour for technical users, 30 minutes for clinical users]
 
-1. __All Users__ Identify a lab data set to use for the test. The data should be “long” (one record per person per visit per lab test) instead of wide. If you’ve got ADaM or SDTM data, that’s ideal. 
-2. __Technical User__ Install the most recent versions of R and RStudio if you haven’t already.
-3. __Technical User__ We’ll be using the new safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this [“Shiny Application User Guide” Vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) before getting started. 
-4. __Technical User__ Using the vignette as a guide, open up the app, load your data, update the settings as needed, and export a copy of the eDish plot. 
-5. __All Users__ Share the exported html graphic with the testing team at your organization, and ask them to follow the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) for this tool. 
-6. __All Users__ Fill out <a href="https://www.surveymonkey.com/r/BS6FHDH" target="_blank">the survey</a>.
+1. __All Users__ - Identify a lab data set to use for the test. The data should be “long” (one record per person per visit per lab test) instead of wide. If you’ve got ADaM or SDTM data, that’s ideal. 
+2. __Technical User__ - Install the most recent versions of R and RStudio if you haven’t already.
+3. __Technical User__ - We’ll be using the new safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this [“Shiny Application User Guide” Vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) before getting started. 
+4. __Technical User__ - Using the vignette as a guide, open up the app, load your data, update the settings as needed, and export a copy of the eDish plot. 
+5. __All Users__ - Share the exported html graphic with the testing team at your organization, and ask them to follow the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) for this tool. 
+6. __All Users__ - Fill out <a href="https://www.surveymonkey.com/r/BS6FHDH" target="_blank">the survey</a>.
 
 ## Notes
 

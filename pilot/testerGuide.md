@@ -1,8 +1,8 @@
-# Alpha/Beta Testing Guide
+# Beta Testing Guide
  
 ## Objective
 
-Gather technical and clinical feedback for the new interactive graphic eDish tool being created by the ASA/DIA Interactive Safety Graphics (ISG) working group.
+Gather technical and clinical feedback for the new interactive  eDish tool being created by the ASA/DIA Interactive Safety Graphics (ISG) working group.
 
 ## Summary of the eDish Tool
 
@@ -23,7 +23,7 @@ First, we’d like to get some clinical feedback on the graphic using a demo dat
 
 ### Step-By-Step [Total Time Required: 30 minutes to 1 hour]
 
-1. Open the eDish graphic in your web-browser at [this link](https://safetygraphics.github.io/safety-eDISH/test/). We recommend avoiding Internet Explorer if at all possible. 
+1. Open the eDish graphic in your web-browser at [this link](https://safetygraphics.github.io/safety-eDISH/test/). We recommend avoiding Internet Explorer if at all possible. Chrome, Firefox and Safari should all work great.
 2. Download the clinical workflow document [at this link](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx), and use it’s guidance (in combination with your own clinical expertise) to review the data shown in the chart. 
 3. Complete <a href="https://www.surveymonkey.com/r/BWPZB7V" target="_blank">the survey</a>. 
 
@@ -35,14 +35,30 @@ Next, we’d like you to load some data from your organization into the tool usi
 
 1. __All Users__ - Identify a lab data set to use for the test. The data should be “long” (one record per person per visit per lab test) instead of wide. If you’ve got ADaM or SDTM data, that’s ideal. 
 2. __Technical User__ - Install the most recent versions of R and RStudio if you haven’t already.
-3. __Technical User__ - We’ll be using the new safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this [“Shiny Application User Guide” Vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) before getting started. 
-4. __Technical User__ - Using the vignette as a guide, open up the app, load your data, update the settings as needed, and export a copy of the eDish plot. 
+3. __Technical User__ - We’ll be using the latest development version of safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this [“Shiny Application User Guide” Vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) before getting started. 
+4. __Technical User__ - Install the R package from github using the `devtools` package, open up the app, load your data, update the settings as needed, and export a copy of the eDish plot. See the technical notes below if you run in to problems. 
 5. __All Users__ - Share the exported html graphic with the testing team at your organization, and ask them to follow the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) for this tool. 
 6. __All Users__ - Fill out <a href="https://www.surveymonkey.com/r/BS6FHDH" target="_blank">the survey</a>.
 
-## Notes
 
-Note that although you will be viewing your data in a web browser, both the shiny application and the exported reports are self-contained and do not send data to the internet. 
+## Technical Notes & Gotchas
+
+- Check [the vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) first.
+- We recommend avoiding Internet Explorer if at all possible. Chrome, Firefox and Safari should all work great.
+- To load a file larger than 5mb, follow the instructions [here](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide#loading-large-files)
+- We'll be making updates as needed throughout the beta test, so remember to load the latest version of the R package using devtools. The code to start the application using devtools is below. 
+
+```
+install.packages("devtools")
+library("devtools")
+devtools::install_github("ASA-DIA-InteractiveSafetyGraphics/safetyGraphics")
+library("safetyGraphics") 
+safetyGraphicsApp()
+```
+
+- Note that you might need to run the code above line-by-line since devtools sometimes has some prompts that can steal  lines of code when pasting in a large code block!
+- `safetyGraphics` requires a fairly recent version of R (>v3.5). 
+- Note that although you will be viewing your data in a web browser, both the shiny application and the exported reports are self-contained and do not send data to the internet. 
 
 ## Disclaimer
 

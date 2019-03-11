@@ -21,7 +21,8 @@ More details on each Phase is provided below
 
 First, we’d like to get some clinical feedback on the graphic using a demo data set. For this phase, we’re asking that clinical users use the clinical workflow document (link) to access safety signals in a data set that we provide. More technical testers, can skip this testing phase. 
 
-### Step-By-Step [Total Time Required: 30 minutes to 1 hour]
+### Step-By-Step 
+[Total Time Required: 30 minutes to 1 hour]
 
 1. Open the eDish graphic in your web-browser at [this link](https://safetygraphics.github.io/safety-eDISH/test/). We recommend avoiding Internet Explorer if at all possible. Chrome, Firefox and Safari should all work great.
 2. Download the clinical workflow document [at this link](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx), and use it’s guidance (in combination with your own clinical expertise) to review the data shown in the chart. 
@@ -31,7 +32,8 @@ First, we’d like to get some clinical feedback on the graphic using a demo dat
 
 Next, we’d like you to load some data from your organization into the tool using the safetyGraphics R package. In general, we think that it will be easiest for a technical user (with experience using R and RStudio) to configure the chart and then share a simple html version of the graphic with clinical users.
 
-### Step-by-step [Total Time Required: 1 hour for technical users, 30 minutes for clinical users]
+### Step-by-Step 
+[Total Time Required: 1 hour for technical users, 30 minutes for clinical users]
 
 1. __All Users__ - Identify a lab data set to use for the test. The data should be “long” (one record per person per visit per lab test) instead of wide. If you’ve got ADaM or SDTM data, that’s ideal. 
 2. __Technical User__ - Install the most recent versions of R and RStudio if you haven’t already.
@@ -41,7 +43,7 @@ Next, we’d like you to load some data from your organization into the tool usi
 6. __All Users__ - Fill out <a href="https://www.surveymonkey.com/r/BS6FHDH" target="_blank">the survey</a>.
 
 
-## Technical Notes & Gotchas
+#### Technical Notes & Gotchas
 
 - Check [the vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) first.
 - We recommend avoiding Internet Explorer if at all possible. Chrome, Firefox and Safari should all work great.

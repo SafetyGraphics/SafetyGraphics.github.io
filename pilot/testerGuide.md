@@ -13,7 +13,7 @@ Evaluation of Drug-Induced Serious Hepatotoxicity (eDISH) plots are a key tool u
 In addition to attend kick-off and wrap-up meetings, we’ve broken the testing process in to 2 separate evaluations of the eDish tool: 
 
 - Evaluation 1 - Evaluate the web-based eDish Graphic and complete the web survey
-- Evaluation 2 - Evaluate the safetyGraphics R application and complete the web survey
+- Evaluation 2 - Evaluate the safetyGraphics R application and complete a separate web survey
 
 More details on each Phase is provided below
  
@@ -35,17 +35,16 @@ Next, we’d like you to evaluate the safetyGraphics R package. In general, we t
 ### Step-by-Step 
 [Total Time Required: 1 hour for technical users, 30 minutes for clinical users]
 
-1. __All Users__ - Identify a lab data set to use for the test. The data should be “long” (one record per person per visit per lab test) instead of wide. If you’ve got ADaM or SDTM data, that’s ideal. For convienience, we've also provided several data sets below. 
+1. __All Users__ - Identify a lab data set to use for the test. The data should be “long” (one record per person per visit per lab test) instead of wide. If you’ve got ADaM or SDTM data, that’s ideal. For convienience, we've also provided several suitable data sets below. 
 2. __Technical User__ - Install the most recent versions of R and RStudio if you haven’t already.
 3. __Technical User__ - We’ll be using the latest development version of safetyGraphics R package to create a standalone version of the eDish chart using your data. We strongly recommend reviewing this [“Shiny Application User Guide” Vignette](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide) before getting started. 
-4. __Technical User__ - Install the R package from github using the `devtools` package, open up the app, load your data, update the settings as needed, and export a copy of the eDish plot. See the technical notes below if you run in to problems. 
+4. __Technical User__ - Install the R package from github using the `devtools` package, open up the app, load a data set, update the settings as needed, and export a copy of the eDish plot. See the technical notes below if you run in to problems. 
 5. __All Users__ - Share the exported html graphic with the testing team at your organization, and ask them to follow the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) for this tool. 
 6. __All Users__ - Fill out <a href="https://www.surveymonkey.com/r/BS6FHDH" target="_blank">the survey</a>.
 
+## Technical Notes
 
-#### Technical Notes
-
-- Here are some sample data sets that can be used to test the safetyGraphics Shiny App. Just click below to download the file to your computer, and then upload it in to the app as described in the vignette:
+- Here are some sample data sets that can be used to test the `safetyGraphics` Shiny App. Just click below to download the file to your computer, and then upload it in to the app as described in the vignette:
   - [SDTM Data](https://raw.githubusercontent.com/SafetyGraphics/SafetyGraphics.github.io/master/pilot/SampleData_SDTM.csv)
   - [Partial SDTM Data](https://raw.githubusercontent.com/SafetyGraphics/SafetyGraphics.github.io/master/pilot/SampleData_PartialSDTM.csv)
   - [Partial ADaM Data](https://raw.githubusercontent.com/SafetyGraphics/SafetyGraphics.github.io/master/pilot/SampleData_PartialADaM.csv)
@@ -66,7 +65,7 @@ safetyGraphicsApp()
 
 - Note that you might need to run the code above line-by-line since devtools sometimes has some prompts that can steal  lines of code when pasting in a large code block!
 - `safetyGraphics` requires a fairly recent version of R (>v3.5). 
-- Under the standard configuration of the `safetyGraphics` library no data leaves your computer (or is sent outside your company's firewall).  Note that although you will be viewing your data in a web browser, both the shiny application and the exported reports are hosted on your computer as described [here](https://shiny.rstudio.com/articles/persistent-data-storage.html#local-vs-remote). 
+- No data leaves your computer (or is sent outside your company's firewall) using the standard configuration of the `safetyGraphics` library.  Although you will be viewing the data in a web browser, both the shiny application and the exported reports are hosted on your computer as described [here](https://shiny.rstudio.com/articles/persistent-data-storage.html#local-vs-remote). 
 
 ## Disclaimer
 

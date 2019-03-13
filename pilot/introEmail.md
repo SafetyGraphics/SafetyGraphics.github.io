@@ -4,10 +4,10 @@ Thank you for agreeing to provide feedback on the new interactive eDish graphic 
  
 In short, we’ve split the testing into 2 separate evaluations of the tool: 
 
-- Evaluation 1 - Evaluate the eDish Graphic using demo data and complete a web survey
-- Evaluation 2 - Evaluate the eDish Graphic using your organization’s data and complete a separate web survey
+- Evaluation 1 - Evaluate the eDish Graphic and complete a web survey
+- Evaluation 2 - Evaluate the safetyGraphics R Package and complete a separate web survey
  
-There is a lot more detail, including a step-by-step guide for each evaluation, in the attached “eDish Testing Guide”, and we’re always available for questions at rinki_jajoo@merck.com.
+There is a lot more detail, including a step-by-step guide for each evaluation, in the [“eDish Testing Guide”](https://safetygraphics.github.io/pilot/testerGuide), and we’re always available for questions at rinki_jajoo@merck.com.
  
 Best Regards,
 

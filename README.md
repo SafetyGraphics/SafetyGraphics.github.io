@@ -4,7 +4,7 @@ This is the homepage for the Interactive Safety Graphics (ISG) subteam of the AS
 
 ## safetyGraphics R Package
 
-The safetyGraphics R package that allows users to evaluate clinical trial safety in R, starting with hepatoxicity. These specialized graphics use lab data from clinical trials (AdAM or SDTM preferred). You can see the R package in action below: 
+The safetyGraphics R package allows users to evaluate clinical trial safety in R, starting with hepatoxicity. These specialized graphics use lab data from clinical trials (AdAM or SDTM preferred). You can see the R package in action below: 
 
 ![edishapp-take2_smallish](https://user-images.githubusercontent.com/3680095/51296057-e3195380-19df-11e9-971a-430c3be930a4.gif)
 
@@ -49,6 +49,8 @@ We are indebted to the ASA Biopharm-DIA Safety WG for agreeing to sponsor this I
 Clinicians who provided invaluable feedback on tool features and the clinical workflow include James Buchanan, Eileen Navarro (FDA), Dennis O’Brien (Boehringer-Ingelheim), Barbara Hendrickson (Abbvie), Jonathan Seltzer (ACI Clinical), Mengchun Li (TB Alliance) and Mary Furnari (Celgene).  Their willingness to enter their comments into GitHub not only improved the tool but also demonstrated their interest and need for it.
 
 In addition to the data scientists and statisticians noted above, our other members include Karl Brand (Bayer), Brian Cohen (ACI Clinical), Rachel Duglash (FDA), Robert Gordon (J&J), Hong Wang (Boehringer-Ingelheim) and Richard Zink (Target Pharma Solutions).
+
+[Alpha and Beta testing](./pilot/testerGuide) for the hepatoxicity graphics took place in early 2019 with participant from more than 20 individuals from the 10 organizations including: Abbvie, Bayer, Boehringer Ingelheim, FDA, Eli Lilly & Co, Janssen, Merck, Novartis, and Rh. Many thanks to all of the testers who participanted. 
 
 The ASA Biopharm/DIA Safety Working Group is ably lead by Judy Li (Celgene) and William Wang (Merck).
 

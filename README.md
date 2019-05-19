@@ -2,21 +2,13 @@
 
 This is the homepage for the Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. The ISG team’s first deliverable is a workflow to monitor for hepatoxicity using the new [safetyGraphics R package](https://github.com/SafetyGraphics/safetyGraphics) and a [well-documented clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%209Mar2019.docx) based on the safety clinician’s monitoring practice. You can try out the interactive eDish graphic used in the R package [here](https://safetygraphics.github.io/safety-eDISH/test/).
 
-## Resources
+## safetyGraphics R Package
 
-### Alpha/Beta testing
+The safetyGraphics R package that allows users to evaluate clinical trial safety in R, starting with hepatoxicity. These specialized graphics use lab data from clinical trials (AdAM or SDTM preferred). You can see the R package in action below: 
 
-Alpha and Beta testing for the hepatoxicity graphics is underway, and a list of resources is provided below. Step-by-step instructions for testers are included in the [Tester Guide](./pilot/testerGuide).
+![edishapp-take2_smallish](https://user-images.githubusercontent.com/3680095/51296057-e3195380-19df-11e9-971a-430c3be930a4.gif)
 
-- [Tester Guide](./pilot/testerGuide)
-- [Tester Email](./pilot/introEmail)  
-- [SafetyGraphics User Guide](https://github.com/SafetyGraphics/safetyGraphics/wiki/Vignette:-Shiny-User-Guide)
-- [Clinical Workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx) (download word document)
-- [Demo Data Survey](https://www.surveymonkey.com/r/BWPZB7V) and [User Data Survey](https://www.surveymonkey.com/r/BS6FHDH)
-
-### safetyGraphics R Package
-
-The safetyGraphics R package that allows users to evaluate clinical trial safety in R, starting with hepatoxicity. These specialized graphics use lab data from clinical trials (AdAM or SDTM preferred). To learn more you can:
+To learn more you can:
 
 - See the package on [CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html)
 - View the [vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
@@ -26,9 +18,6 @@ The safetyGraphics R package that allows users to evaluate clinical trial safety
 - Try out a hosted version of the [shiny app](https://becca-krouse.shinyapps.io/safetyGraphicsApp/) (or run it locally using the code in the capsule summary above)
 - Check out [other interactive graphics](https://rhoinc.github.io/safety-explorer-suite/) for safety monitoring.  We also wrote [a paper](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846) about these. Our plan is to add some of them to SafetyGraphics package in future releases.
 - Take a look at the [technical framework](https://user-images.githubusercontent.com/3680095/51296179-6f2b7b00-19e0-11e9-841a-afc2964a7e1a.png) being used to create the chart
-- See the Shiny App in action below: 
-
-![edishapp-take2_smallish](https://user-images.githubusercontent.com/3680095/51296057-e3195380-19df-11e9-971a-430c3be930a4.gif)
 
 ## Motivation
 

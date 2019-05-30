@@ -1,6 +1,6 @@
 ## Background
 
-This is the homepage for the Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. The ISG team’s first deliverable is a workflow to monitor for hepatoxicity using the new [safetyGraphics R package](https://github.com/SafetyGraphics/safetyGraphics) and a [well-documented clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/ISG%20Hepatic%20Safety%20Explorer%20User's%20Manual%20%26%20Workflow%20v1.0.pdf) based on the safety clinician’s monitoring practice. You can try out the interactive eDish graphic used in the R package [here](https://safetygraphics.github.io/safety-eDISH/test/).
+This is the homepage for the Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. The ISG team’s first deliverable is a workflow to monitor for hepatoxicity using the new [safetyGraphics R package](https://github.com/SafetyGraphics/safetyGraphics) and a [well-documented clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/ISG%20Hepatic%20Safety%20Explorer%20User's%20Manual%20%26%20Workflow%20v1.0.pdf) based on the safety clinician’s monitoring practice. You can try out the interactive hep explorer graphic used in the R package [here](https://safetygraphics.github.io/hep-explorer/test-page/example1).
 
 ## safetyGraphics R Package
 
@@ -13,7 +13,7 @@ To learn more you can:
 - See the package on [CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html)
 - View the [vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
 - Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package
-- Check out the underlying [javascript library](https://github.com/SafetyGraphics/safety-eDISH) used to create the [eDish Chart](https://safetygraphics.github.io/safety-eDISH/)
+- Check out the underlying [javascript library](https://github.com/SafetyGraphics/hep-explorer) used to create the [Hepatic Safety Explorer Chart](https://safetygraphics.github.io/hep-explorer/test-page/example1)
 - See [the poster](https://github.com/RhoInc/RStudioConf2019-ePoster/) we presented at RStudio::conf(2019)
 - Try out a hosted version of the [shiny app](https://becca-krouse.shinyapps.io/safetyGraphicsApp/) (or run it locally using the code in the capsule summary above)
 - Check out [other interactive graphics](https://rhoinc.github.io/safety-explorer-suite/) for safety monitoring.  We also wrote [a paper](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846) about these. Our plan is to add some of them to SafetyGraphics package in future releases.

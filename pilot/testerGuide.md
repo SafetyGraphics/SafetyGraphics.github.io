@@ -24,7 +24,7 @@ First, we’d like to get some clinical feedback on the graphic using a demo dat
 ### Step-By-Step 
 [Total Time Required: 30 minutes to 1 hour]
 
-1. Open the eDish graphic in your web-browser at [this link](https://safetygraphics.github.io/safety-eDISH/test/). We recommend avoiding Internet Explorer if at all possible. Chrome, Firefox and Safari should all work great.
+1. Open the eDish graphic in your web-browser at [this link](https://safetygraphics.github.io/hep-explorer/test-page/example1). We recommend avoiding Internet Explorer if at all possible. Chrome, Firefox and Safari should all work great.
 2. Download the clinical workflow document [at this link](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/eDISH%20ISG%20User's%20Manual%20%26%20Workflow%20draft%204Feb2019.docx), and use it’s guidance (in combination with your own clinical expertise) to review the data shown in the chart. 
 3. Complete <a href="https://www.surveymonkey.com/r/BWPZB7V" target="_blank">the survey</a>. 
 

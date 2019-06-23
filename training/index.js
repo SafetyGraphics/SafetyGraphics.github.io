@@ -31,10 +31,6 @@ document.onreadystatechange = function () {
             baseline:{
               value_col:"STUDYDAY",
               values:[1]
-            },
-            analysisFlag:{
-              value_col:"EPOCH",
-              values:["Analysis"]
             }
         };
         const chart = hepexplorer('#container', settings);

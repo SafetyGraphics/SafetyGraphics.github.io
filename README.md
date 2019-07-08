@@ -50,7 +50,7 @@ Clinicians who provided invaluable feedback on tool features and the clinical wo
 
 In addition to the data scientists and statisticians noted above, our other members include Karl Brand (Bayer), Brian Cohen (ACI Clinical), Rachel Duglash (FDA), Robert Gordon (J&J), Hong Wang (Boehringer-Ingelheim) and Richard Zink (Target Pharma Solutions).
 
-[Alpha and Beta testing](./pilot/testerGuide) for the hepatoxicity graphics took place in early 2019 with participant from more than 20 individuals from the 10 organizations including: Abbvie, Bayer, Boehringer Ingelheim, FDA, Eli Lilly & Co, Janssen, Merck, Novartis, and Rh. Many thanks to all of the testers who participanted.
+[Alpha and Beta testing](./pilot/testerGuide) for the hepatoxicity graphics took place in early 2019 with participant from more than 20 individuals from the 10 organizations including: Abbvie, Bayer, Boehringer Ingelheim, FDA, Eli Lilly & Co, Janssen, Merck, Novartis, and Rho. Many thanks to all of the testers who participanted.
 
 The ASA Biopharm/DIA Safety Working Group is ably lead by Judy Li (Celgene) and William Wang (Merck).
 

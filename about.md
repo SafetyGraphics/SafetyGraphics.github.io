@@ -1,5 +1,7 @@
 # About Us
 
+The safetyGrapics project is maintained by the ASA Biopharm/DIA Safety Working Group’s Interactive Safety Graphics Taskforce, which includes stakeholders from across the pharmaceutical industry, including the FDA. All work is free and open source with an MIT License.
+
 ## Motivation
 
 Clinical trial research is highly regulated and notoriously slow moving. As a result, modern data analysis tools and techniques that have become commonplace in other industries have struggled to achieve broad or consistent adoption. Our group seeks to allow clinical trial researchers to interact with their data using tools that are free, reproducible, customizable, and easy to use. Our tools typically combine JavaScript-based interactive graphics with a flexible R data pipeline built for existing clinical data standards. This flexible technical framework, combined with an open source development workflow in GitHub, may provide a useful road map for creating similar tools in other change-resistant environments.
@@ -21,9 +23,7 @@ We're working to create interactive tools that are:
 - **Agile** - Frequent releases with GitHub.
 - **Engaging** - Regular Feedback from users. Pilot testing. Open issue tracking.
 
-## About the Team
-
-The safetyGraphics and safety-eDish projects are maintained by the ASA Biopharm/DIA Safety Working Group’s Interactive Safety Graphics Taskforce, which includes stakeholders from across the pharmaceutical industry, including the FDA. All work is free and open source with an MIT License.
+### Team Members
 
 We are indebted to the ASA Biopharm-DIA Safety WG for agreeing to sponsor this Interactive Safety Graphics (ISG) Taskforce. Jeremy Wildfire (Rho) developed the initial Javascript code and worked with Rebecca Krouse (Rho) and Preston Burns (Rho) develop the associated safetyGraphics R package, with an assist from Xiao Ni (Novartis); James Buchanan (Covilance) authored the User’s Guide; Zachary Skrivanek (Lilly) and Melvin Munsaka (AbbVie) authored the beta test plan; Rinki Jajoo (Merck) and Nathan Li (Merck) serve as our project managers (previously Susan Duke); Xiao Ni (previously Susan Duke) represents ISG on the WG’s Communications Team.  Frank Harrell (Vanderbilt University and FDA) provided invaluable advice at many steps along the way.
 

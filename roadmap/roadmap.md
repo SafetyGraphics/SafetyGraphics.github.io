@@ -1,6 +1,6 @@
 
 # Interactive Safety Graphics Roadmap
-**Last Update: 2019-10-21**
+**Last Update: 2019-10-29**
 
 This document summarizes the areas of emphasis for the ISG group after the initial release of safetyGraphics in mid-2019. In general, we’ve broken the work in to 3 interconnected areas: 
 

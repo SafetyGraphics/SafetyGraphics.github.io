@@ -19,12 +19,12 @@ The ISG team’s first deliverable was a workflow to monitor for hepatoxicity us
 ### Enhancements
 
 *   Incorporate a full participant profile
-    *   Display time course of study drug administration relative to laboratory changes.
-    *   Display time course of concomitant medication administration relative to laboratory changes.
-    *   Display the time course of adverse events relative to laboratory changes using swimmer plots. Consider color coding for AE severity.
+-   Display time course of study drug administration relative to laboratory changes.
+-   Display time course of concomitant medication administration relative to laboratory changes.
+-   Display the time course of adverse events relative to laboratory changes using swimmer plots. Consider color coding for AE severity.
 *   Improve R-Value functionality
-    *   Show R value when an individual point is chosen
-    *   Display R value for each point in the lab value over time plot. 
+-   Show R value when an individual point is chosen
+-   Display R value for each point in the lab value over time plot. 
 *   Add option to show plot for any given time point in the study
 *   Add an option for adjusting the fold change calculation to a fixed value (e.g., fold change above an ALT of 30 U/L). 
 *   Enhance ability to load large datasets.
@@ -132,55 +132,55 @@ The initial release of the tools are not validated and are intended for explorat
 The ISG has 9 projects that are planned, underway, or need staffing in 2019. 
 
 ### 1. TIRS Manuscript
-    *  **Overview**: Invited manuscript for TIRS
-    *  **Technical Lead**: Jeremy
-    *  **Clinical Lead**: Jim
-    *  **Progress**: 10%
+- **Overview**: Invited manuscript for TIRS
+-  **Technical Lead**: Jeremy
+-  **Clinical Lead**: Jim
+-  **Progress**: 10%
 
 ### 2. Add Support for Multiple Chart Types
-    *  **Overview**: Version 1.0 of the safetygraphics package only supports creating charts using htmlwidgets - this project will add support for R graphics and standalone shiny modules. 
-    *  **Technical Lead**: Rebecca Krouse 
-    *  **Clinical Lead**: NA (technical work only)
-    *  **Progress**: 95%
+-  **Overview**: Version 1.0 of the safetygraphics package only supports creating charts using htmlwidgets - this project will add support for R graphics and standalone shiny modules. 
+-  **Technical Lead**: Rebecca Krouse 
+-  **Clinical Lead**: NA (technical work only)
+-  **Progress**: 95%
 
 ### 3. Add Support for Multiple Data Domains
-    *  **Overview**: Version 1.0 of the safetygraphics package only allows the user to load lab data. This project will add support for loading multiple data sets from different data domains and creating associated charts. 
-    *  **Technical Lead**: Jeremy Wildfire
-    *  **Clinical Lead**: NA (technical work only)
-    *  **Progress**: 0%
+-  **Overview**: Version 1.0 of the safetygraphics package only allows the user to load lab data. This project will add support for loading multiple data sets from different data domains and creating associated charts. 
+-  **Technical Lead**: Jeremy Wildfire
+-  **Clinical Lead**: NA (technical work only)
+-  **Progress**: 0%
 
 ### 4. Create Participant Profile Graphic
-    *  **Overview**: Create a robust participant profile accessible via links from other charts. Update the clinical workflow for the hep-explorer to incorporate the new functionality
-    *  **Technical Lead**: Renan Sauteraud
-    *  **Clinical Lead**: *Help Wanted*
-    *  **Progress**: 50%
+-  **Overview**: Create a robust participant profile accessible via links from other charts. Update the clinical workflow for the hep-explorer to incorporate the new functionality
+-  **Technical Lead**: Renan Sauteraud
+-  **Clinical Lead**: *Help Wanted*
+-  **Progress**: 50%
 
 ### 5. Create PAlt Graphic
-    *  **Overview**: Add the calculation for PAlt and the associated estimate of hepatocyte loss to hep-explorer, and create a stand-alone graphic allowing users interactively to explore those parameters for different ALT profiles
-    *  **Technical Lead**: *Help Wanted*
-    *  **Clinical Lead**: Rachel Church and Paul Watkins
-    *  **Progress**: 5%
+-  **Overview**: Add the calculation for PAlt and the associated estimate of hepatocyte loss to hep-explorer, and create a stand-alone graphic allowing users interactively to explore those parameters for different ALT profiles
+-  **Technical Lead**: *Help Wanted*
+-  **Clinical Lead**: Rachel Church and Paul Watkins
+-  **Progress**: 5%
 
 ### 6. Create AE Volcano Plot Graphic
-    *  **Overview**: Create an interactive volcano plot module for Adverse Events
-    *  **Technical Lead**: Ke
-    *  **Clinical Lead**: Dennis
-    *  **Progress**: 0%
+-  **Overview**: Create an interactive volcano plot module for Adverse Events
+-  **Technical Lead**: Ke
+-  **Clinical Lead**: Dennis
+-  **Progress**: 0%
 
 ### 7. Create Clinical Workflow for existing Laboratory Graphics
-    *  **Overview**: Create a clinical workflow to be used in conjunction with the existing graphics related to laboratory monitoring. Make updates to the graphics as needed based on clinical requests. 
-    *  **Technical Lead**: *Help Wanted*
-    *  **Clinical Lead**: *Help Wanted* 
-    *  **Progress**: 0%
+-  **Overview**: Create a clinical workflow to be used in conjunction with the existing graphics related to laboratory monitoring. Make updates to the graphics as needed based on clinical requests. 
+-  **Technical Lead**: *Help Wanted*
+-  **Clinical Lead**: *Help Wanted* 
+-  **Progress**: 0%
     
 ### 8. Pilot adding statistical inference in htmlwidgets
-    *  **Overview**: Identify and implement use cases for adding appropriate statistical tests to the interactive graphics
-    *  **Technical Lead**: Melvin
-    *  **Clinical Lead**: NA 
-    *  **Progress**: 0%
+-  **Overview**: Identify and implement use cases for adding appropriate statistical tests to the interactive graphics
+-  **Technical Lead**: Melvin
+-  **Clinical Lead**: NA 
+-  **Progress**: 0%
     
 ### 9. Improve app performance with large data sets
-    *  **Overview**: Create a clinical workflow to be used in conjunction with the existing graphics related to laboratory monitoring. Make updates to the graphics as needed based on clinical requests. 
-    *  **Technical Lead**: *Help Wanted* 
-    *  **Clinical Lead**: *Help Wanted* 
-    *  **Progress**: 0%
+-  **Overview**: Create a clinical workflow to be used in conjunction with the existing graphics related to laboratory monitoring. Make updates to the graphics as needed based on clinical requests. 
+-  **Technical Lead**: *Help Wanted* 
+-  **Clinical Lead**: *Help Wanted* 
+-  **Progress**: 0%

@@ -1,10 +1,10 @@
 ## Overview 
 
-Welcome to the Interactive Safety Graphics home page. We make open source interactive graphics for monitoring clinical trial safety. Check out a [sample graphic](https://safetygraphics.github.io/hep-explorer/test-page/example1) along with a paired [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/ISG%20Hepatic%20Safety%20Explorer%20User's%20Manual%20%26%20Workflow%20v1.1.pdf) based on the medical literature. 
+Welcome to the Interactive Safety Graphics home page. We make open source interactive graphics for monitoring clinical trial safety. Check out a [sample graphic](https://safetygraphics.github.io/hep-explorer/test-page/example1) along with its paired [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/ISG%20Hepatic%20Safety%20Explorer%20User's%20Manual%20%26%20Workflow%20v1.1.pdf) based on the medical literature. 
 
 ## Background
 
-The Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. You can learn more about our team's motivation and see a full list of team members [here](about).
+The Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. Click [here](about) to learn more about our team's motivation, see a full list of team members. You can also explore our [road map](roadmap) to learn more about our active and planned projects.
 
 ## safetyGraphics R Package
 

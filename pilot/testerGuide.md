@@ -19,7 +19,7 @@ More details on each Phase is provided below
 
 ## Evaluation 1: Evaluating the web-based eDish Graphic
 
-First, we’d like to get some clinical feedback on the graphic using a demo data set. For this phase, we’re asking that clinical users use the [clinical workflow document](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/ISG%20Hepatic%20Safety%20Explorer%20User's%20Manual%20%26%20Workflow%20v1.1.pdf) to access safety signals in a data set that we provide. More technical testers, can skip this testing phase. 
+First, we’d like to get some clinical feedback on the graphic using a demo data set. For this phase, we’re asking that clinical users use the [clinical workflow document](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_1.pdf) to access safety signals in a data set that we provide. More technical testers, can skip this testing phase. 
 
 ### Step-By-Step
 [Total Time Required: 30 minutes to 1 hour]

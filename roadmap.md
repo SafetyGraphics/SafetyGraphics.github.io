@@ -1,14 +1,14 @@
 
 # Interactive Safety Graphics Roadmap
-**Last Update: 2019-10-29**
+**Last Update: 2019-12-02**
 
-This document summarizes the areas of emphasis for the ISG group after the initial release of safetyGraphics in mid-2019. In general, we’ve broken the work in to 3 interconnected areas: 
+This document summarizes the areas of emphasis for the ISG group after the initial release of safetyGraphics in mid-2019. In general, we are focused on 3 interconnected areas: 
 
 1. Hepatic Safety Explorer Enhancements
 2. Interactive Graphics for new safety domains
 3. safetyGraphics Platform Maintenance
 
-These areas of work are described in more detail in the sections below. We’ve also included a section that describes the maintenance model for this tool set and a section listing ‘shovel-ready’ projects.
+These areas of work are described in more detail in the sections below. We’ve also included a sections describing the maintenance model for our group, a section listing active projects and a .
 
 ## Focus 1: Hepatic Safety Explorer Enhancements
 
@@ -127,9 +127,9 @@ The time taken to perform enhancive (adaptive and perfective) maintenance decrea
 
 The initial release of the tools are not validated and are intended for exploratory use only. We are certainly willing to consider validated versions of the tools in the future, and have team members closely involved with the R Validation Hub effort that establishing a general framework for R package validation in pharma.
 
-##  2019 Project Details
+##  Active Projects
 
-The ISG has 9 projects that are planned, underway, or need staffing in 2019. 
+The ISG has 9 projects that are active or ready to start. 
 
 ### 1. TIRS Manuscript
 - **Overview**: Invited manuscript for TIRS
@@ -157,15 +157,15 @@ The ISG has 9 projects that are planned, underway, or need staffing in 2019.
 
 ### 5. Create PAlt Graphic
 -  **Overview**: Add the calculation for PAlt and the associated estimate of hepatocyte loss to hep-explorer, and create a stand-alone graphic allowing users interactively to explore those parameters for different ALT profiles
--  **Technical Lead**: *Help Wanted*
+-  **Technical Lead**: Jeremy Wildfire
 -  **Clinical Lead**: Rachel Church and Paul Watkins
--  **Progress**: 5%
+-  **Progress**: 50%
 
 ### 6. Create AE Volcano Plot Graphic
 -  **Overview**: Create an interactive volcano plot module for Adverse Events
 -  **Technical Lead**: Ke
 -  **Clinical Lead**: Dennis
--  **Progress**: 0%
+-  **Progress**: 10%
 
 ### 7. Create Clinical Workflow for existing Laboratory Graphics
 -  **Overview**: Create a clinical workflow to be used in conjunction with the existing graphics related to laboratory monitoring. Make updates to the graphics as needed based on clinical requests. 
@@ -184,3 +184,46 @@ The ISG has 9 projects that are planned, underway, or need staffing in 2019.
 -  **Technical Lead**: *Help Wanted* 
 -  **Clinical Lead**: *Help Wanted* 
 -  **Progress**: 0%
+
+## Graphic List
+
+*Released* - The [safetyGraphics package](https://github.com/SafetyGraphics/safetyGraphics) currently support 6 graphics for monitoring lab data. 
+
+- Hepatic Safety Explorer  - [Library](https://github.com/SafetyGraphics/hep-explorer) [Configuration](https://github.com/SafetyGraphics/hep-explorer/wiki/Configuration)
+- Histogram -  [Library](https://github.com/RhoInc/safety-histogram) [Configuration](https://github.com/https://github.com/RhoInc/safety-histogram/wiki/Configuration)
+- Outlier Explorer -  [Library](https://github.com/RhoInc/outlier-explorer) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/outlier-explorer)
+- Shift Plot -  [Library](https://github.com/RhoInc/shift-plot) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/shift-plot)
+- Results Over Time - [Library](https://github.com/RhoInc/results-over-time) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/results-over-time)
+- Paneled Outlier Explorer -  [Library](https://github.com/RhoInc/paneled-outlier-explorer) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/paneled-outlier-explorer)
+
+*In Development* - Four additional graphics are currently being developed or tested for use with [safetyGraphics](https://github.com/SafetyGraphics/safetyGraphics): 
+
+- Volcano Plot - [Library](https://github.com/SafetyGraphics/volcano-plot) 
+- Participant Profile - [Library](https://github.com/Novartis/patprofile)
+- AE Dot Plot - [Library](https://github.com/RhoInc/aeexplorer)
+- AE Timeline - [Library](https://github.com/RhoInc/ae-timelines)
+- Safety Delta-Delta - [Library](https://github.com/RhoInc/safety-delta-delta)
+
+*Idea List* - Finally, we're always looking for new types of interesting visualizations to develop. We've discussed adding the following:  
+
+- Nephrotoxicity Domain
+    - Identify subjects with serum creatinine values exceeding ULN (plots of SCr over time).
+    - Identify subjects with elevations of serum creatinine >2x baseline, even if the values remain within the normal range.
+    - Identify subjects with estimated glomerular filtration rate (eGFR) below a threshold value. Calculate eGFR based on serum creatinine and cystatin C. Display changes over time and compare relative changes in eGFR by creatinine and by cystatin C as an indicator of possible renal transporter inhibition.
+    - Display changes in BUN over time with Scr and/or eGFR as an indicator of pre-renal azotemia.
+    - Display study drug and concomitant medication administration, an appearance of AEs, relative to renal lab changes.
+- QTc Prolongation Domain: Based on the CTSPedia QTc graphic, allow the ability to select a point to drill down to subject details, such as:
+    - Changes in QTc (by Fridericia, Bazett, Nomogram, Framingham, Hodges) over time.
+    - Display of heart rate relative to QTc (to identify instances when the HR is <60).
+    - Display PK data (as available) relative to QTc changes.
+- AE Domain
+    - Tendril Plot
+    - Analysis of Recurrent AEs
+    - AE clustering by time
+- Anaphylaxis
+- Injection site reactions
+- Hypersensitivity
+- AE clustering by time
+- Vital signs
+- Bleeding
+    

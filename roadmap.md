@@ -189,12 +189,12 @@ The ISG has 9 projects that are active or ready to start.
 
 *Released* - The [safetyGraphics package](https://github.com/SafetyGraphics/safetyGraphics) currently support 6 graphics for monitoring lab data. 
 
-- Hepatic Safety Explorer  - [Library](https://github.com/SafetyGraphics/hep-explorer) [Configuration](https://github.com/SafetyGraphics/hep-explorer/wiki/Configuration)
-- Histogram -  [Library](https://github.com/RhoInc/safety-histogram) [Configuration](https://github.com/https://github.com/RhoInc/safety-histogram/wiki/Configuration)
-- Outlier Explorer -  [Library](https://github.com/RhoInc/outlier-explorer) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/outlier-explorer)
-- Shift Plot -  [Library](https://github.com/RhoInc/shift-plot) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/shift-plot)
-- Results Over Time - [Library](https://github.com/RhoInc/results-over-time) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/results-over-time)
-- Paneled Outlier Explorer -  [Library](https://github.com/RhoInc/paneled-outlier-explorer) [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/paneled-outlier-explorer)
+- Hepatic Safety Explorer  - [Library](https://github.com/SafetyGraphics/hep-explorer), [Configuration](https://github.com/SafetyGraphics/hep-explorer/wiki/Configuration)
+- Histogram -  [Library](https://github.com/RhoInc/safety-histogram), [Configuration](https://github.com/https://github.com/RhoInc/safety-histogram/wiki/Configuration)
+- Outlier Explorer -  [Library](https://github.com/RhoInc/outlier-explorer), [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/outlier-explorer)
+- Shift Plot -  [Library](https://github.com/RhoInc/shift-plot), [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/shift-plot)
+- Results Over Time - [Library](https://github.com/RhoInc/results-over-time), [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/results-over-time)
+- Paneled Outlier Explorer -  [Library](https://github.com/RhoInc/paneled-outlier-explorer), [Configuration](https://github.com/https://github.com/RhoInc/RhoInc/paneled-outlier-explorer)
 
 *In Development* - Four additional graphics are currently being developed or tested for use with [safetyGraphics](https://github.com/SafetyGraphics/safetyGraphics): 
 

@@ -174,6 +174,18 @@ The ISG has several projects that are active or ready to start.
 -  **Clinical Lead**: *Help Wanted* 
 -  **Progress**: 0%
 
+### 8. Nephrotoxicity Graphics
+-  **Overview**: Create a suite of graphics for analyzing nephrotoxicity
+-  **Technical Lead**: *Help Wanted* 
+-  **Clinical Lead**: *Help Wanted* 
+-  **Progress**: 0%
+
+### 9. Validation 
+-  **Overview**: Team focused on the validation of our tools
+-  **Technical Lead**: *Help Wanted* 
+-  **Clinical Lead**: *Help Wanted* 
+-  **Progress**: 0%
+
 ## Completed Projects
 
 ### 1. Create PAlt Graphic

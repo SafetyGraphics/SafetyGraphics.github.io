@@ -1,6 +1,6 @@
 # About Us
 
-The safetyGrapics project is maintained by the ASA Biopharm/DIA Safety Working Group’s Interactive Safety Graphics Taskforce, which includes stakeholders from across the pharmaceutical industry, including the FDA. All work is free and open source with an MIT License.
+The safetyGraphics project is maintained by the ASA Biopharm/DIA Safety Working Group’s Interactive Safety Graphics Taskforce, which includes stakeholders from across the pharmaceutical industry, including the FDA. All work is free and open source with an MIT License.
 
 ## Motivation
 

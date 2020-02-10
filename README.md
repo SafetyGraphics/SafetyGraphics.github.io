@@ -6,7 +6,7 @@ Welcome to the Interactive Safety Graphics home page. We make open source intera
 
 ## Background
 
-The Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group. The working group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. Click [here](about) to learn more about our team's motivation, see a full list of team members. You can also explore our [road map](roadmap) to learn more about our active and planned projects.
+The Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group is an interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for monitoring during clinical development in an open source model. Click [here](about) to learn more about our team's motivation, see a full list of team members. You can also explore our [road map](roadmap) to learn more about our active and planned projects.
 
 ## safetyGraphics R Package
 

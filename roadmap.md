@@ -1,7 +1,7 @@
 
 # Interactive Safety Graphics Roadmap
 
-**Last Update: 2020-01-21**
+**Last Update: 2020-02-20**
 
 This document summarizes the current areas of emphasis for the ISG group. In general, we are focused on 3 interconnected areas: 
 
@@ -107,6 +107,7 @@ In addition to community created charts, next steps for core platform include ad
 *   Optimized graphics for studies with very large data sets
 *   Automated tests for the shiny application
 *   Facilitated “real-time” statistical analysis
+*   Improved chart modularity (easily import charts from other packages)
 
 ## Maintenance Model
 
@@ -142,40 +143,40 @@ The ISG has several projects that are active or ready to start.
 -  **Overview**: Create an interactive volcano plot module for Adverse Events
 -  **Technical Lead**: Ke
 -  **Clinical Lead**: Dennis
--  **Progress**: 25%
+-  **Progress**: 50%
 
 ### 3. Add Support for Multiple Data Domains
 -  **Overview**: Version 1.0 of the safetygraphics package only allows the user to load lab data. This project will add support for loading multiple data sets from different data domains and creating associated charts. 
 -  **Technical Lead**: Becca
 -  **Clinical Lead**: NA (technical work only)
+-  **Progress**: 30%
+
+### 4. Nephrotoxicity Graphics
+-  **Overview**: Create a suite of graphics for analyzing nephrotoxicity
+-  **Technical Lead**: Dev Team meeting regularly
+-  **Clinical Lead**: Jim
 -  **Progress**: 10%
 
-### 4. Updated AE Dot plot 
+### 5. Updated AE Dot plot 
 -  **Overview**: (Was: Pilot adding statistical inference in htmlwidgets) Collaborative effort between ASA (including ISG), PhUSE and FDA to create an interactive Adverse event dot plot with robust statistical methods in R Shiny.
 -  **Technical Lead**: Melvin
 -  **Clinical Lead**: NA 
 -  **Progress**: 10%
     
-### 5. TIRS Manuscript
+### 6. TIRS Manuscript
 - **Overview**: Invited manuscript for TIRS
 -  **Technical Lead**: Jeremy
 -  **Clinical Lead**: Jim
 -  **Progress**: 10%
 
-### 6. Create Clinical Workflow for existing Laboratory Graphics
+### 7. Create Clinical Workflow for existing Laboratory Graphics
 -  **Overview**: Create a clinical workflow to be used in conjunction with the existing graphics related to laboratory monitoring. Make updates to the graphics as needed based on clinical requests. 
 -  **Technical Lead**: *Help Wanted*
 -  **Clinical Lead**: *Help Wanted* 
 -  **Progress**: 0%
     
-### 7. Improve app performance with large data sets
+### 8. Improve app performance with large data sets
 -  **Overview**: Create a clinical workflow to be used in conjunction with the existing graphics related to laboratory monitoring. Make updates to the graphics as needed based on clinical requests. 
--  **Technical Lead**: *Help Wanted* 
--  **Clinical Lead**: *Help Wanted* 
--  **Progress**: 0%
-
-### 8. Nephrotoxicity Graphics
--  **Overview**: Create a suite of graphics for analyzing nephrotoxicity
 -  **Technical Lead**: *Help Wanted* 
 -  **Clinical Lead**: *Help Wanted* 
 -  **Progress**: 0%

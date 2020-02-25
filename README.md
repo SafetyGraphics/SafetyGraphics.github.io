@@ -16,7 +16,8 @@ To learn more you can:
 
 - See the package on [CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html)
 - Download the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2.pdf)
-- View the [vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
+- View the [introductory vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
+- Learn more about creating custom charts with the [advanced vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) or this [50 minute tutorial video](https://rhoworld.webex.com/recordingservice/sites/rhoworld/recording/play/a4dd5e4b9fe0421cb50f3db98ab4ee2c) 
 - Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package
 - Check out the underlying [javascript library](https://github.com/SafetyGraphics/hep-explorer) used to create the [Hepatic Safety Explorer Chart](https://safetygraphics.github.io/hep-explorer/test-page/example1)
 - See [the poster](https://github.com/RhoInc/RStudioConf2019-ePoster/) we presented at RStudio::conf(2019)

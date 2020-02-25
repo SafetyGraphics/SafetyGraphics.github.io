@@ -1,6 +1,6 @@
 ## Overview
 
-Welcome to the Interactive Safety Graphics home page. We make open source interactive graphics for monitoring clinical trial safety. Check out a [sample graphic](https://safetygraphics.github.io/hep-explorer/test-page/example1) along with its paired [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_1.pdf) based on the medical literature, or explorer your own data using the [safetyGraphics R package](#safetygraphics-r-package) shown below.
+Welcome to the Interactive Safety Graphics home page. We make open source interactive graphics for monitoring clinical trial safety. Check out a [sample graphic](https://safetygraphics.github.io/hep-explorer/test-page/example1) along with its paired [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2.pdf) based on the medical literature, or explorer your own data using the [safetyGraphics R package](#safetygraphics-r-package) shown below.
 
 ![edishapp-take2_smallish](https://user-images.githubusercontent.com/3680095/51296057-e3195380-19df-11e9-971a-430c3be930a4.gif)
 
@@ -15,7 +15,7 @@ The safetyGraphics R package makes it easy for users to evaluate thier own clini
 To learn more you can:
 
 - See the package on [CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html)
-- Download the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_1.pdf)
+- Download the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2.pdf)
 - View the [vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
 - Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package
 - Check out the underlying [javascript library](https://github.com/SafetyGraphics/hep-explorer) used to create the [Hepatic Safety Explorer Chart](https://safetygraphics.github.io/hep-explorer/test-page/example1)

@@ -1,6 +1,6 @@
 # Contribution Guidelines for Packages in the safetyGraphics organization
 
-** This page is under development. We'd love your help making it better! **
+**This page is under development. We'd love your help making it better!**
 
 # Overview 
 
@@ -35,14 +35,38 @@ The safetyGraphics project consists of several GitHub repositories that are main
 
 # Contributing Code 
 
+## User Access
+
+To gain access, [send Jeremy your GitHub user name](mailto:jwildfir@rhoworld.com?Subject=safetyGraphics Access Request" target="_top), and he will grant you access to the organization and add you to the appropriate teams. 
+
+## Issue Tracking
+
+All repos have active issue trackers. All issues should, at a minimum contain a name, description, assignee and release version (tracked using a GitHub "Milestone").
+
+## Project Boards
+
+Each release has it's own [GitHub project board](https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards) containing all issues being resolved in the release. We typically use columns for 'To Do', 'In Progress', 'Ready for review' and 'Done'. Developers should update the project board as they go. 
+
 ## Branches
 
-## Pull Requests
+ We typically use three types of branches: 
+
+- **`master`** - The production version of the repository. Commits directly to the `master` branch are not permitted, so all code development must be done in development and feature branches as described below.
+- **Development Branches** - Development branches contain all code for a given release, and should be named `vX.X.X-dev`. When the work on the release is complete, the development branch will be merged to `master` via a pull request. 
+- **Feature Branches** - Feature branches resolve one or more issues and should be named to reflect the new features added  (e.g. `add-participant-filter`). Once all issuse are resolved, the feature branch should be merged in to a development branch. 
+
+For a large release, there will likely be several feature branches merged to the development branch before the development branch is merged to `master`. Commits directly to development branches are discouraged, since we generally recommend making a feature branch/PR instead. However, for a small release that only resolves a few features, a single development branch may be sufficient. Following this Branch structure is important since our quality control is built using this framework. 
+
+All merging should be done via pull requests. More details our merge/PR process are provided in the Quality Control section below. 
+
+## Commit Messages
+
+Please reference issue numbers in commit messages whenever possible. 
 
 ## Quality Control
 
-## Documentation
+We pay great attention to the quality of our tools, and all repos have undergone significant testing and quality control and have detailed documentation. More detail is provided in the links below. That said, none of our repositories are currently validated per the [21 CFR Part 11](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=11) guidelines.  We also have several team members who are actively involved in the [R Validation Hub effort](https://www.pharmar.org/).
 
-## Guidelines for R
+For R packages, we follow the guidelines in Hadley Wickham's [R Pacakges](http://r-pkgs.had.co.nz/) book. And include extensive tests via the `testthat` package. 
 
-## Guidelines for javascript
+For javascript renderers, we follow the guidelines [described here](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/testing/readme.md). 

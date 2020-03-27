@@ -4,7 +4,7 @@
 
 # Overview 
 
-Hello! Thank you for your interest in contributing to the ASA/DIA Interactive Safety Graphics (ISG) working group. This page provides guidelines for technical contributors to this project. For a non-technical overview, please visit [our homepage](https://safetygraphics.github.io/) or the [safetyGraphics R package](https://safetygraphics.github.io/safetyGraphics/). If you can't find what you need on this page, don't hesitate to [email Jeremy](mailto:jwildfir@rhoworld.com?Subject=safetyGraphics Technical Question" target="_top) with questions. 
+Hello! Thank you for your interest in contributing to the ASA/DIA Interactive Safety Graphics (ISG) working group. This page provides guidelines for technical contributors to this project. For a non-technical overview, please visit [our homepage](https://safetygraphics.github.io/) or the [safetyGraphics R package](https://safetygraphics.github.io/safetyGraphics/). If you can't find what you need on this page, don't hesitate to [email Jeremy](mailto:jwildfir@rhoworld.com?subject=safetyGraphics%20Technical%20Question) with questions. 
 
 # Approach
 
@@ -37,7 +37,7 @@ The safetyGraphics project consists of several GitHub repositories that are main
 
 ## User Access
 
-To gain access, [send Jeremy your GitHub user name](mailto:jwildfir@rhoworld.com?Subject=safetyGraphics Access Request" target="_top), and he will grant you access to the organization and add you to the appropriate teams. 
+To gain access, [send Jeremy your GitHub user name](mailto:jwildfir@rhoworld.com?subject=safetyGraphics%20Access%20Request), and he will grant you access to the organization and add you to the appropriate teams. 
 
 ## Issue Tracking
 

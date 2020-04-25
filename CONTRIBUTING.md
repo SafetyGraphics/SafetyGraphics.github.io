@@ -1,4 +1,4 @@
-# Contribution Guidelines for Packages in the safetyGraphics organization
+# Interactive Safety Graphics Contribution Guidelines
 
 **This page is under development. We'd love your help making it better!**
 

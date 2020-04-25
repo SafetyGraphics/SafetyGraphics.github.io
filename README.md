@@ -10,7 +10,7 @@ The Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Wor
 
 - [About Page](about) - learn more about our team's motivation and see a full list of team members
 - [Road Map](roadmap) - learn more about our active and planned projects
-- [Contribution guidelines](CONTRIBUTING) - learn about how to contribute code to the project
+- [Contribution guidelines](https://github.com/SafetyGraphics/SafetyGraphics.github.io/blob/master/CONTRIBUTING.md) - learn about how to contribute code to the project
 
 ## safetyGraphics R Package
 

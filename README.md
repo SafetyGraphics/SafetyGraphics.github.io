@@ -24,7 +24,9 @@ To learn more you can:
 - Learn more about creating custom charts with the [advanced vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) or this [50 minute tutorial video](https://rhoworld.webex.com/recordingservice/sites/rhoworld/recording/play/a4dd5e4b9fe0421cb50f3db98ab4ee2c) 
 - Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package
 - Check out the underlying [javascript library](https://github.com/SafetyGraphics/hep-explorer) used to create the [Hepatic Safety Explorer Chart](https://safetygraphics.github.io/hep-explorer/test-page/example1)
-- See [the poster](https://github.com/RhoInc/RStudioConf2019-ePoster/) we presented at RStudio::conf(2019)
 - Try out a hosted version of the [shiny app](https://becca-krouse.shinyapps.io/safetyGraphicsApp/) (or run it locally using the code in the capsule summary above)
 - Check out [other interactive graphics](https://rhoinc.github.io/safety-explorer-suite/) for safety monitoring.  We also wrote [a paper](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846) about these. Our plan is to add some of them to SafetyGraphics package in future releases.
 - Take a look at the [technical framework](https://user-images.githubusercontent.com/3680095/51296179-6f2b7b00-19e0-11e9-841a-afc2964a7e1a.png) being used to create the chart
+- Explore some of our presentations
+    - See [the poster](https://github.com/RhoInc/RStudioConf2019-ePoster/) we presented at RStudio::conf(2019) 
+    - See [the slides](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/presentations/SafetyGraphics_RPharma2020.pdf) introducing safetyGraphics v2.0 from R in Pharma 2020

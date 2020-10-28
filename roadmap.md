@@ -3,13 +3,17 @@
 
 **Last Update: 2020-10-28**
 
-This document summarizes the current areas of emphasis for the ISG group. In general, we currently focused on 3 interconnected areas: 
+This document summarizes the objectives and projects for the ISG group.
+
+## Group Objectives
+
+In general, we currently focused on 3 interconnected areas: 
 
 1. Improve the safetyGraphics Platform 
-2. Create a standard set of charts in the safetyCharts package
-3. Create Validation Documentation
+2. Create new charts for safety monitoring
+3. Validation/Qualification
 
-These areas of work linked to the active projects shown below. 
+These areas of work are linked to the active projects shown below. 
 
 ##  Active Projects
 

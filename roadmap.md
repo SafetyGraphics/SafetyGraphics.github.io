@@ -7,7 +7,7 @@ This document summarizes the objectives and projects for the ISG group.
 
 ## Group Objectives
 
-In general, we currently focused on 3 interconnected areas: 
+In general, we are currently focused on 3 interconnected areas: 
 
 1. Improve the safetyGraphics Platform 
 2. Create new charts for safety monitoring
@@ -43,7 +43,7 @@ The ISG has several projects that are active or ready to start.
 -  **Updates**
   - 2020-10-28: The modules created in the Novartis participant profile are supported in safetyGraphics v2.0 and will be included in the default chart list. 
 
-### 4. Create AE Volcano Plot Graphic
+### 4. AE Volcano Plot Graphic
 -  **Overview**: Create an interactive volcano plot module for Adverse Events
 -  **Technical Lead**: Ke -> Isaac
 -  **Clinical Lead**: Dennis

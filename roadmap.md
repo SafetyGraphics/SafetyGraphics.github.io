@@ -66,7 +66,15 @@ The ISG has several projects that are active or ready to start.
 -  **Progress**: 10%
 -  **Updates**
   - 2020-10-28: Jim and Mengchun created a solid first draft. Waiting on Jeremy for technical section. 
-  
+
+### 7. nR Update in hep-explorer
+- **Overview**: Finalize addition of nR to the hep-explorer tool
+-  **Technical Lead**: Jeremy
+-  **Clinical Lead**: Jim
+-  **Progress**: 80%
+-  **Updates**
+  - 2020-11-4: Coding is done. Need to QC/validate. Jeremy to provide guidance to Pavan.
+
 ## Inactive Projects - Help Wanted!
 
 ### 1. Nephrotoxicity Graphics

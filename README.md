@@ -29,4 +29,4 @@ To learn more you can:
 - Take a look at the [technical framework](https://user-images.githubusercontent.com/3680095/51296179-6f2b7b00-19e0-11e9-841a-afc2964a7e1a.png) being used to create the chart
 - Explore some of our presentations
     - See [the poster](https://github.com/RhoInc/RStudioConf2019-ePoster/) we presented at RStudio::conf(2019) 
-    - See [the slides](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/presentations/SafetyGraphics_RPharma2020.pdf) introducing safetyGraphics v2.0 from R in Pharma 2020
+    - See [the slides](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/presentations/SafetyGraphics_RPharma2020.pdf) or [video](https://www.youtube.com/c/RinPharma) introducing safetyGraphics v2.0 from R in Pharma 2020

@@ -1,6 +1,6 @@
 ## Overview
 
-Welcome to the Interactive Safety Graphics home page. We make open source interactive graphics for monitoring clinical trial safety. Check out a [sample graphic](https://safetygraphics.github.io/hep-explorer/test-page/example1) along with its paired [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2.pdf) based on the medical literature, or explorer your own data using the [safetyGraphics R package](#safetygraphics-r-package) shown below.
+Welcome to the Interactive Safety Graphics home page. We make open source interactive graphics for monitoring clinical trial safety. Check out a [sample graphic](https://safetygraphics.github.io/hep-explorer/test-page/example1) along with its paired [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2_1.pdf) based on the medical literature, or explorer your own data using the [safetyGraphics R package](#safetygraphics-r-package) shown below.
 
 ![edishapp-take2_smallish](https://user-images.githubusercontent.com/3680095/51296057-e3195380-19df-11e9-971a-430c3be930a4.gif)
 
@@ -19,7 +19,7 @@ The safetyGraphics R package makes it easy for users to evaluate thier own clini
 To learn more you can:
 
 - See the package on [CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html)
-- Download the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2.pdf)
+- Download the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2_1.pdf)
 - View the [introductory vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
 - Learn more about creating custom charts with the [advanced vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) or this [50 minute tutorial video](https://rhoworld.webex.com/recordingservice/sites/rhoworld/recording/play/a4dd5e4b9fe0421cb50f3db98ab4ee2c) 
 - Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package

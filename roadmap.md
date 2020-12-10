@@ -1,7 +1,7 @@
 
 # Interactive Safety Graphics Roadmap
 
-**Last Update: 2020-10-28**
+**Last Update: 2020-12-09**
 
 This document summarizes the objectives and projects for the ISG group.
 
@@ -19,55 +19,41 @@ These areas of work are linked to the active projects shown below.
 
 The ISG has several projects that are active or ready to start. 
 
-### 1. safetyGraphics v2.0
-- **Overview**: safetyGraphics v2 expands the scope of the app to include all data domains and a wide range of charts. For a full list of development tasks see the [issue tracker](https://github.com/SafetyGraphics/safetyGraphics/milestone/21)
+### 1. [safetyGraphics](https://github.com/SafetyGraphics/safetyGraphics) v2.0 
+- **Overview**: [safetyGraphics](https://github.com/SafetyGraphics/safetyGraphics) v2 expands the scope of the app to include all data domains and a wide range of charts. For a full list of development tasks see the [issue tracker](https://github.com/SafetyGraphics/safetyGraphics/milestone/21)
 -  **Technical Lead**: Jeremy Wildfire
 -  **Clinical Lead**: None. Will gather extensive clinical feedback in beta testing.
 -  **Progress**: 80%
 -  **Updates**
   - 2020-10-28: Working prototype is ~80% complete. Aiming to finalize development by end of 2020, and start beta testing in early 2021
 
-### 2. safetyCharts v1.0
+### 2. [safetyCharts](https://github.com/SafetyGraphics/safetyCharts) v1.0
 - **Overview**: safetyGraphics v2 will import all charts from other libraries, including safetyCharts, which will become a dependency. Our goal is to have a robust set of R tables, listings and figures defined in this package - see this [wiki page](https://github.com/SafetyGraphics/safetyCharts/wiki/Chart-List) for a draft list of charts. The charts will include both static and interactive charts displays and will range from simple listings to more complex interactive displays. All charts in safetyCharts will be configured to easily work with our typical safetyGraphics workflow. 
 -  **Technical Lead**: Jeremy Wildfire -> ???
 -  **Clinical Lead**: None. Will gather extensive clinical feedback in beta testing.
 -  **Progress**: 50%
 -  **Updates**
   - 2020-10-28: Working prototype is ~80% complete. Aiming to finalize development by end of 2020, and start beta testing in early 2021
-
-### 3. Participant Profile Graphic
--  **Overview**: Create a robust participant profile accessible via links from other charts. Update the clinical workflow for the hep-explorer to incorporate the new functionality
--  **Technical Lead**: Renan Sauteraud -> Xiao Ni
--  **Clinical Lead**: *Help Wanted*
--  **Progress**: 50%
--  **Updates**
-  - 2020-10-28: The modules created in the Novartis participant profile are supported in safetyGraphics v2.0 and will be included in the default chart list. 
-
-### 4. AE Volcano Plot Graphic
--  **Overview**: Create an interactive volcano plot module for Adverse Events
--  **Technical Lead**: Ke -> Isaac
--  **Clinical Lead**: Dennis
--  **Progress**: 75%
--  **Updates**
-  - 2020-10-28: Isaac is making good progress on the refactor, and will coordinate with Jeremy to prepare a stable release as part of the safetyGraphcis v2 rollout.
+  - 2020-12-9: Basic package structure is in place, and we will be updating charts to follow package development best practices as we get closer to a v2 release. Starting an effort to make prioritized list of charts to create early next year, which will include components of the Novartis Participant Profile. As such we are closing out the standalone Participant Profile project and rolling it in to safetyCharts. 
   
-### 5. AE Dot plot using Analysis Data
+### 3. AE Dot plot using Analysis Data
 -  **Overview**: (Was: Pilot adding statistical inference in htmlwidgets) Collaborative effort between ASA (including ISG), PhUSE and FDA to create an interactive Adverse event dot plot with robust statistical methods in R Shiny.
 -  **Technical Lead**: Jeremy
 -  **Clinical Lead**: Melvin 
 -  **Progress**: 90%
 -  **Updates**
-  - 2020-10-28: Jeremy created a [prototype](https://github.com/jwildfire/forest-plot) to generate a forrest plot using analysis results data and made an [htmlwidget](https://github.com/SafetyGraphics/safetyCharts/tree/forestPlot) so that it can be initialized in R.  Going to make a few more updates and call this done. Will re-evaluate approach for phase 2 of the project. 
+    - 2020-10-28: Jeremy created a [prototype](https://github.com/jwildfire/forest-plot) to generate a forrest plot using analysis results data and made an [htmlwidget](https://github.com/SafetyGraphics/safetyCharts/tree/forestPlot) so that it can be initialized in R.  Going to make a few more updates and call this done. Will re-evaluate approach for phase 2 of the project.  
 
-### 6. TIRS Manuscript
+### 4. TIRS Manuscript
 - **Overview**: Invited manuscript for TIRS
 -  **Technical Lead**: Jeremy
 -  **Clinical Lead**: Jim
--  **Progress**: 10%
+-  **Progress**: 90%
 -  **Updates**
   - 2020-10-28: Jim and Mengchun created a solid first draft. Waiting on Jeremy for technical section. 
+  - 2020-12-4: Jim circulated a draft to the full team in early December. Plan is to consolidate feedback and submit to TIRS in the coming weeks. 
 
-### 7. nR Update in hep-explorer
+### 5. nR Update in hep-explorer
 - **Overview**: Finalize addition of nR to the hep-explorer tool
 -  **Technical Lead**: Jeremy
 -  **Clinical Lead**: Jim
@@ -103,6 +89,16 @@ The ISG has several projects that are active or ready to start.
 -  **Clinical Lead**: *Help Wanted* 
 -  **Progress**: 0%
 
+
+### 5. AE Volcano Plot Graphic
+-  **Overview**: Create an interactive volcano plot module for Adverse Events
+-  **Technical Lead**: Ke -> Isaac
+-  **Clinical Lead**: Dennis
+-  **Progress**: 75%
+-  **Updates**
+  - 2020-10-28: Isaac is making good progress on the refactor, and will coordinate with Jeremy to prepare a stable release as part of the safetyGraphcis v2 rollout.
+  - 2020-12-09: On hold until Isaac has time or a new developer can take this on. 
+  
 ## Completed Projects
 
 ### 1. Create PAlt Graphic
@@ -124,3 +120,13 @@ The ISG has several projects that are active or ready to start.
 -  **Progress**: 100%
 -  **Updates** 
   - 2020-10-28 - Technical work is done in safetyGraphcis v2!
+  
+### 4. Participant Profile Graphic
+-  **Overview**: Create a robust participant profile accessible via links from other charts. Update the clinical workflow for the hep-explorer to incorporate the new functionality
+-  **Technical Lead**: Renan Sauteraud -> Xiao Ni
+-  **Clinical Lead**: *Help Wanted*
+-  **Progress**: 50%
+-  **Updates**
+  - 2020-10-28: The modules created in the Novartis participant profile are supported in safetyGraphics v2.0 and will be included in the default chart list. 
+  - 2020-12-9: Closing this project and moving the work it in to safetyCharts
+

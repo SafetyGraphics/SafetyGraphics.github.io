@@ -36,7 +36,7 @@ The ISG has several projects that are active or ready to start.
   - 2020-10-28: Working prototype is ~80% complete. Aiming to finalize development by end of 2020, and start beta testing in early 2021
   - 2020-12-9: Basic package structure is in place, and we will be updating charts to follow package development best practices as we get closer to a v2 release. Starting an effort to make prioritized list of charts to create early next year, which will include components of the Novartis Participant Profile. As such we are closing out the standalone Participant Profile project and rolling it in to safetyCharts. 
   
-### 3. AE Dot plot using Analysis Data
+### 3. [AE Dot plot using Analysis Data](https://jwildfire.github.io/forest-plot/)
 -  **Overview**: (Was: Pilot adding statistical inference in htmlwidgets) Collaborative effort between ASA (including ISG), PhUSE and FDA to create an interactive Adverse event dot plot with robust statistical methods in R Shiny.
 -  **Technical Lead**: Jeremy
 -  **Clinical Lead**: Melvin 
@@ -53,7 +53,7 @@ The ISG has several projects that are active or ready to start.
   - 2020-10-28: Jim and Mengchun created a solid first draft. Waiting on Jeremy for technical section. 
   - 2020-12-4: Jim circulated a draft to the full team in early December. Plan is to consolidate feedback and submit to TIRS in the coming weeks. 
 
-### 5. nR Update in hep-explorer
+### 5. [nR Update for hep-explorer](https://github.com/SafetyGraphics/hep-explorer/pull/326)
 - **Overview**: Finalize addition of nR to the hep-explorer tool
 -  **Technical Lead**: Jeremy
 -  **Clinical Lead**: Jim

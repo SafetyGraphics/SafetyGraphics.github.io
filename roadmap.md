@@ -1,7 +1,7 @@
 
 # Interactive Safety Graphics Roadmap
 
-**Last Update: 2020-12-09**
+**Last Update: 2020-01-19**
 
 This document summarizes the objectives and projects for the ISG group.
 

@@ -4,26 +4,37 @@
 
 # Overview 
 
-Hello! Thank you for your interest in contributing to the ASA/DIA Interactive Safety Graphics (ISG) working group. This page provides guidelines for technical contributors to this project. For a non-technical overview, please visit [our homepage](https://safetygraphics.github.io/) or the [safetyGraphics R package](https://safetygraphics.github.io/safetyGraphics/). If you can't find what you need on this page, don't hesitate to post to the [safetyGraphics discussion](https://github.com/SafetyGraphics/safetyGraphics/discussions) board with questions. 
+Hello! Thank you for your interest in contributing to the ASA/DIA Interactive Safety Graphics (ISG) working group. This page provides guidelines for technical contributors to this project. Most of our programming is done in R and Javascript, and we assumes a basic understanding of GitHub and Git (see links below for training resources). For new contributors, we suggest getting started by reviewing the Papers and Presentations listed below. 
 
-# Approach
+If you can't find what you need on this page or need help finding a good first issue to work on, don't hesitate to post to the [safetyGraphics discussion](https://github.com/SafetyGraphics/safetyGraphics/discussions) board with questions. 
 
-Our group seeks to provide an open-source model. As noted on our [About Us page](https://safetygraphics.github.io/about), we're working to create a clinical safety workflow that is:
 
-- **Open Source** - Transparent. Customizable. Free!
-- **Interactive** - Users can explore their data.
-- **Easy to Use** - Just open up a webpage.
-- **Easy to Configure** - Streamlined configuration with R.  
-- **Compliant with Data Standards** - Support ADaM and SDTM by default.
-- **Highly Collaborative** - Clinicians and Programmers working together.
-- **Agile** - Frequent releases with GitHub.
-- **Engaging** - Regular Feedback from users. Pilot testing. Open issue tracking.
 
-The rest of this document provides details about the technical approach we use to meet these goals. 
+ If you've never used GitHub, we strongly recommend reading through their [help pages](https://help.github.com/en/github) and/or doing some [online learning](https://www.coursera.org/learn/introduction-git-github). 
 
-# Prerequisites
+# Helpful Links
 
-This guide assumes a basic understanding of GitHub. If you've never used GitHub, I strongly recommend reading through their [help pages](https://help.github.com/en/github) and/or doing some [online learning](https://www.coursera.org/learn/introduction-git-github).
+## Project Web pages
+
+- [Interactive Safety Graphics Working Group Home page](https://safetygraphics.github.io/)
+- [safetyGraphics Github Organization](https://github.com/SafetyGraphics/)
+- [Project Road Map](https://github.com/SafetyGraphics/SafetyGraphics.github.io/blob/master/roadmap.md)
+ 
+## Presentations 
+
+- [Building Open Source Tools for Safety Monitoring: Advancing Research Through Community Collaboration](https://rinpharma.com/publication/rinpharma_105/) Presented by Becca Krouse at R/Pharma 2019 
+- [safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shinyo](https://www.youtube.com/watch?v=2Ykw1jwSw5M) Presented by Jeremy Wildfire at R/Pharma 2020 
+
+## Papers
+
+- [The Safety Explorer Suite: Interactive Safety Monitoring for Clinical Trials](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846), Wildfire et al. 2018
+- [A New Paradigm for Safety Signal Detection and Evaluation Using Open-Source Software Created by an Interdisciplinary Working Group.](https://link.springer.com/content/pdf/10.1007/s43441-021-00319-3.pdf) Buchanan et al. 2021
+- [Data Monitoring committees for clinical trials evaluating treatments of COVID-19](https://www.contemporaryclinicaltrials.com/article/S1551-7144(20)30232-9/fulltext) Tobias Mütze and Tim Friede. 2020 
+
+## Technical Resources
+
+- [GitHub Help Pages](https://help.github.com/en/github)
+- [Git/GitHub Online Learning](https://www.coursera.org/learn/introduction-git-github)
 
 # Technical Overview
 

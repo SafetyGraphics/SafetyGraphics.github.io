@@ -4,7 +4,7 @@
 
 # Overview 
 
-Hello! Thank you for your interest in contributing to the ASA/DIA Interactive Safety Graphics (ISG) working group. This page provides guidelines for technical contributors to this project. For a non-technical overview, please visit [our homepage](https://safetygraphics.github.io/) or the [safetyGraphics R package](https://safetygraphics.github.io/safetyGraphics/). If you can't find what you need on this page, don't hesitate to [email Jeremy](mailto:jwildfire@gmail.com?subject=safetyGraphics%20Technical%20Question) with questions. 
+Hello! Thank you for your interest in contributing to the ASA/DIA Interactive Safety Graphics (ISG) working group. This page provides guidelines for technical contributors to this project. For a non-technical overview, please visit [our homepage](https://safetygraphics.github.io/) or the [safetyGraphics R package](https://safetygraphics.github.io/safetyGraphics/). If you can't find what you need on this page, don't hesitate to post to the [safetyGraphics discussion](https://github.com/SafetyGraphics/safetyGraphics/discussions) board with questions. 
 
 # Approach
 

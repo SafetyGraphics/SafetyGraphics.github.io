@@ -70,11 +70,10 @@ For javascript renderers, we follow the guidelines [described here](https://gith
 
 ## Vignettes
 
-- [Intro to safetyGraphics](https://github.com/SafetyGraphics/wiki/Intro)
-- [Chart Configuration Vignette](https://github.com/SafetyGraphics/wiki/ChartConfiguration) - details about the charting process including technical specifications and step-by-step instructions
-- [Cookbook Vignette](https://github.com/SafetyGraphics/wiki/Cookbook) - a series of examples showing how to initialize the safetyGraphics Shiny app in different scenarios
-- [Technical FAQ Vignette](https://github.com/SafetyGraphics/wiki/TechnicalFAQ) - vignette discussing security, validation and other technical issues
-
+- [Intro to safetyGraphics](https://github.com/SafetyGraphics/SafetyGraphics/wiki/Intro)
+- [Chart Configuration Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/ChartConfiguration) - details about the charting process including technical specifications and step-by-step instructions
+- [Cookbook Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/Cookbook) - a series of examples showing how to initialize the safetyGraphics Shiny app in different scenarios
+- [Technical FAQ Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/TechnicalFAQ) - vignette discussing security, validation and other technical issues
 
 ## Presentations 
 

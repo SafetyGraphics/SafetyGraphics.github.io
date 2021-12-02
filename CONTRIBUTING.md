@@ -17,11 +17,7 @@ Hello! Thank you for your interest in contributing to this project! Here's a qui
 
 # Technical Overview
 
-The safetyGraphics project consists of several GitHub repositories that are maintained in the [safetyGraphics GitHub organization](https://github.com/SafetyGraphics/). These projects can roughly be broken into 2 categories: 
-
-1. safetyGraphics Framework - The overall framework for loading data, customizing settings and creating interactive graphics for monitoring clinical trial safety. This is mostly done with [`safetyGraphics/safetyGraphics`](https://github.com/SafetyGraphics/safetyGraphics) R package. This vignette provides an overview of the overall [safetyGraphics framework](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html). 
-
-2. Renderers - Stand-alone interactive graphics used for monitoring a specific aspect of clinical trial safety. For example, the [`safetyGraphics/hep-explorer`](https://github.com/SafetyGraphics/safetyGraphics) repo is focused on monitoring liver toxicity. These charts are designed to be used as part of the overall safetyGraphics framework, and can be created using javascript or R. [This vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) provides extensive technical details about the creation of custom renderers.
+The safetyGraphics project consists of several GitHub repositories that are maintained in the [safetyGraphics GitHub organization](https://github.com/SafetyGraphics/). The [safetyGraphics](https://github.com/SafetyGraphics/safetyGraphics) package provides a platform for loading data, customizing settings and creating interactive graphics for monitoring clinical trial safety. However, the safetyGraphics platform really doesn't do much by iteslf! In fact, none of the content on the Charts tab is actually found in the safetyGraphics package; the default charts live in the  [safetyCharts](https://github.com/SafetyGraphics/safetyCharts) package. safetyCharts has over a dozen charts that are configured to work with {safetyGraphics}, but can also easily be used independently. [This vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/ChartConfiguration) provides describes this relationship in more detail along with extensive technical details about the creation of custom renderers.
 
 # Contributing Code 
 
@@ -33,11 +29,9 @@ To gain access, go through the [Getting Started](#Getting-Started) section above
 
  We typically use three types of branches: 
 
-- **`dev`** - Development branches contain all code for a given release, and should be named `vX.X.X-dev`. When the work on the release is complete, the development branch will be merged to `master` via a pull request. 
-- **`main`** - The production version of the repository. Commits directly to the `master` branch are not permitted, so all code development must be done in development and feature branches as described below.
-- **Feature Branches** - Feature branches resolve one or more issues and should be named to reflect the new features added  (e.g. `add-participant-filter`). Once all issues are resolved, the feature branch should be merged into a development branch. 
-
-For a large release, there will likely be several feature branches merged to the development branch before the development branch is merged to `master`. Commits directly to development branches are discouraged since we generally recommend making a feature branch/PR instead. However, for a small release that only resolves a few features, a single development branch may be sufficient. Following this Branch structure is important since our quality control is built using this framework. 
+- **`main`** - The main branch has the latest release for repository. Commits directly to the `main` branch are not permitted. When a given release is complete and all needed contet is in the `dev` branch, admins merge `dev` in to main and tag a release. 
+- **`dev`** - `dev` is the default branch and is generally the target branch for Pull requests. Commits directly to `dev` should be avoided - use Feature branches as described below instead. 
+- **Feature Branches** - Feature branches resolve one or more issues and should be named to reflect the new features added  (e.g. `add-participant-filter` of `fix-118`). Once all issues are resolved, the feature branch should be merged into `dev`. Once new features are developed, the developer creates a pull request and requests a code review from a teammate. Once approved, the Feature branch can be merged to dev. 
 
 All merging should be done via pull requests. More details of our merge/PR process are provided in the Quality Control section below. 
 
@@ -53,13 +47,9 @@ Each release has it's own [GitHub project board](https://help.github.com/en/gith
 
 Please reference issue numbers in commit messages whenever possible. 
 
-## Quality Control
+## Quality Control, Validation, Etc.
 
-We pay great attention to the quality of our tools, and all repos have undergone significant testing and quality control and have detailed documentation. More detail is provided in the links below. That said, none of our repositories are currently validated per the [21 CFR Part 11](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm?CFRPart=11) guidelines.  We also have several team members who are actively involved in the [R Validation Hub effort](https://www.pharmar.org/).
-
-For R packages, we follow the guidelines in Hadley Wickham's [R Packages](http://r-pkgs.had.co.nz/) book. And include extensive tests via the `testthat` package. 
-
-For javascript renderers, we follow the guidelines [described here](https://github.com/RhoInc/open-source-handbook/blob/master/workflow/testing/readme.md). 
+For other technical questions see the safetyGraphics [Technical FAQ](https://github.com/SafetyGraphics/SafetyGraphics/wiki/TechnicalFAQ) Vignette.
 
 # Resources
 ## Project Web pages
@@ -90,3 +80,5 @@ For javascript renderers, we follow the guidelines [described here](https://gith
 
 - [GitHub Help Pages](https://help.github.com/en/github)
 - [Git/GitHub Online Learning](https://www.coursera.org/learn/introduction-git-github)
+- [R Packages by Hadley Wickham](http://r-pkgs.had.co.nz/)
+- [Rho's Open Source Handbook](https://github.com/RhoInc/open-source-handbook/)

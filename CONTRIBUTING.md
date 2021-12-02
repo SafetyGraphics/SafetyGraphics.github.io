@@ -12,8 +12,8 @@ Hello! Thank you for your interest in contributing to this project! Here's a qui
 
 1. **Review the Technical Requirements** - Most of our programming is done in R and Javascript, and we assume a basic understanding of GitHub and Git. We've provided a few links to a few technical resources and tutorials [below](#Technical-Resources).
 2. **Read about the Project** -  Learn a bit about safetyGraphics by reviewing the rest of this document and checking out the Vignettes, Papers and Presentations listed in the [Resources Section](#Resources) below. 
-3. **Join the mailing list** - Take 2 minutes to fill out [this form] (https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link) to let us know you're interested; we'll reach out to discuss. 
-4. **Start Contributing**  - Look through the [Good First Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+author%3Ajwildfire+archived%3Afalse+user%3ASafetyGraphics+label%3A%22good+first+issue%22) or post to the [safetyGraphics discussion](https://github.com/SafetyGraphics/safetyGraphics/discussions) to find a topic to work on, and get to work on your first Pull Request. 
+3. **Join the Mailing List** - Take 2 minutes to fill out [this form] (https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link) to let us know you're interested; we'll reach out to discuss. 
+4. **Start Contributing**  - Look through the [Good First Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+author%3Ajwildfire+archived%3Afalse+user%3ASafetyGraphics+label%3A%22good+first+issue%22) to find a topic to work on. You can also post to the [safetyGraphics discussion board](https://github.com/SafetyGraphics/safetyGraphics/discussions) to discuss options. Once you find a topic, you can get to work on your first Pull Request. 
 
 # Technical Overview
 
@@ -66,8 +66,16 @@ For javascript renderers, we follow the guidelines [described here](https://gith
 
 - [Interactive Safety Graphics Working Group Home page](https://safetygraphics.github.io/)
 - [safetyGraphics Github Organization](https://github.com/SafetyGraphics/)
-- [Project Road Map](https://github.com/SafetyGraphics/SafetyGraphics.github.io/blob/master/roadmap.md)
- 
+- [Road Map](https://github.com/SafetyGraphics/SafetyGraphics.github.io/blob/master/roadmap.md)
+
+## Vignettes
+
+- [Intro to safetyGraphics](https://github.com/SafetyGraphics/wiki/Intro)
+- [Chart Configuration Vignette](https://github.com/SafetyGraphics/wiki/ChartConfiguration) - details about the charting process including technical specifications and step-by-step instructions
+- [Cookbook Vignette](https://github.com/SafetyGraphics/wiki/Cookbook) - a series of examples showing how to initialize the safetyGraphics Shiny app in different scenarios
+- [Technical FAQ Vignette](https://github.com/SafetyGraphics/wiki/TechnicalFAQ) - vignette discussing security, validation and other technical issues
+
+
 ## Presentations 
 
 - [Building Open Source Tools for Safety Monitoring: Advancing Research Through Community Collaboration](https://rinpharma.com/publication/rinpharma_105/) Presented by Becca Krouse at R/Pharma 2019 

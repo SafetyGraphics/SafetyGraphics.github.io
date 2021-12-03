@@ -12,7 +12,7 @@ Hello! Thank you for your interest in contributing to this project! Here's a qui
 
 1. **Review the Technical Requirements** - Most of our programming is done in R and Javascript, and we assume a basic understanding of GitHub and Git. We've provided a few links to a few technical resources and tutorials [below](#Technical-Resources).
 2. **Read about the Project** -  Learn a bit about safetyGraphics by reviewing the rest of this document and checking out the Vignettes, Papers and Presentations listed in the [Resources Section](#Resources) below. 
-3. **Join the Mailing List** - Take 2 minutes to fill out [this form] (https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link) to let us know you're interested; we'll reach out to discuss. 
+3. **Join the Mailing List** - Take 2 minutes to fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link) to let us know you're interested; we'll reach out to discuss. 
 4. **Start Contributing**  - Look through the [Good First Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+author%3Ajwildfire+archived%3Afalse+user%3ASafetyGraphics+label%3A%22good+first+issue%22) to find a topic to work on. You can also post to the [safetyGraphics discussion board](https://github.com/SafetyGraphics/safetyGraphics/discussions) to discuss options. Once you find a topic, you can get to work on your first Pull Request. 
 
 # Technical Overview

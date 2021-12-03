@@ -20,11 +20,13 @@ To learn more you can:
 
 - See the package on [CRAN](https://cran.r-project.org/web/packages/safetyGraphics/index.html)
 - Download the [clinical workflow](https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2_1.pdf)
-- View the [introductory vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/shinyUserGuide.html) for detailed guidance on using the Shiny application
-- Learn more about creating custom charts with the [advanced vignette](https://cran.r-project.org/web/packages/safetyGraphics/vignettes/customWorkflows.html) or this [50 minute tutorial video](https://rhoworld.webex.com/recordingservice/sites/rhoworld/recording/play/a4dd5e4b9fe0421cb50f3db98ab4ee2c) 
-- Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package
+- Explore the [github repo](https://github.com/SafetyGraphics/safetyGraphics) for the package, or read through the package vignettes: 
+  - [Intro to safetyGraphics](https://github.com/SafetyGraphics/SafetyGraphics/wiki/Intro) - Introductory vignette providing the overview of the package.
+  - [Chart Configuration Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/ChartConfiguration) - Details about the charting process including technical specifications and step-by-step instructions
+  - [Cookbook Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/Cookbook) - A series of examples showing how to initialize the safetyGraphics Shiny app in different scenarios
+  - [Technical FAQ Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/TechnicalFAQ) - vignette discussing security, validation and other technical issues
 - Check out the underlying [javascript library](https://github.com/SafetyGraphics/hep-explorer) used to create the [Hepatic Safety Explorer Chart](https://safetygraphics.github.io/hep-explorer/test-page/example1)
-- Try out a hosted version of the [shiny app](https://becca-krouse.shinyapps.io/safetyGraphicsApp/) (or run it locally using the code in the capsule summary above)
+- Try out a hosted version of the [shiny app](https://jwildfire.shinyapps.io/safetyGraphics/) (or run it locally using the code in the capsule summary above)
 - Check out [other interactive graphics](https://rhoinc.github.io/safety-explorer-suite/) for safety monitoring.  We also wrote [a paper](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846) about these. Our plan is to add some of them to SafetyGraphics package in future releases.
 - Take a look at the [technical framework](https://user-images.githubusercontent.com/3680095/51296179-6f2b7b00-19e0-11e9-841a-afc2964a7e1a.png) being used to create the chart
 - Explore some of our presentations

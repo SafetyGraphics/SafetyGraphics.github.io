@@ -26,7 +26,7 @@ To learn more you can:
   - [Cookbook Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/Cookbook) - A series of examples showing how to initialize the safetyGraphics Shiny app in different scenarios
   - [Technical FAQ Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/TechnicalFAQ) - vignette discussing security, validation and other technical issues
 - Check out the underlying [javascript library](https://github.com/SafetyGraphics/hep-explorer) used to create the [Hepatic Safety Explorer Chart](https://safetygraphics.github.io/hep-explorer/test-page/example1)
-- Try out a hosted version of the [shiny app](https://jwildfire.shinyapps.io/safetyGraphics/) (or run it locally using the code in the capsule summary above)
+- Try out a hosted version of the [shiny app](https://jwildfire.shinyapps.io/safetyGraphics/)
 - Check out [other interactive graphics](https://rhoinc.github.io/safety-explorer-suite/) for safety monitoring.  We also wrote [a paper](https://journals.sagepub.com/doi/abs/10.1177/2168479018754846) about these. Our plan is to add some of them to SafetyGraphics package in future releases.
 - Take a look at the [technical framework](https://user-images.githubusercontent.com/3680095/51296179-6f2b7b00-19e0-11e9-841a-afc2964a7e1a.png) being used to create the chart
 - Explore some of our presentations

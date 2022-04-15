@@ -1,6 +1,6 @@
 # Interactive Safety Graphics Contribution Guidelines
 
-**This page is under development. We'd love your help making it better!**
+**This page is under development. We'd love your help making it better - PRs with updates welcome!**
 
 # Overview 
 
@@ -12,7 +12,7 @@ Hello! Thank you for your interest in contributing to this project! Here's a qui
 
 1. **Review the Technical Requirements** - Most of our programming is done in R and Javascript, and we assume a basic understanding of GitHub and Git. We've provided a few links to a few technical resources and tutorials [below](#Technical-Resources).
 2. **Read about the Project** -  Learn a bit about safetyGraphics by reviewing the rest of this document and checking out the Vignettes, Papers and Presentations listed in the [Resources Section](#Resources) below. 
-3. **Join the Mailing List** - Take 2 minutes to fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link) to let us know you're interested; we'll reach out to discuss. 
+3. **Join the Mailing List** - Take 2 minutes to fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link'>this form</a> to let us know you're interested; we'll reach out to discuss. 
 4. **Start Contributing**  - Look through the [Good First Issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+author%3Ajwildfire+archived%3Afalse+user%3ASafetyGraphics+label%3A%22good+first+issue%22) to find a topic to work on. You can also post to the [safetyGraphics discussion board](https://github.com/SafetyGraphics/safetyGraphics/discussions) to discuss options. Once you find a topic, you can get to work on your first Pull Request. 
 
 # Technical Overview
@@ -23,7 +23,7 @@ The safetyGraphics project consists of several GitHub repositories that are main
 
 ## User Access
 
-To gain access, go through the [Getting Started](#Getting-Started) section above. We'll add you to the GitHub Organization once you fill out [the form] (https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link) letting us know you'd like to contribute. 
+To gain access, go through the [Getting Started](#Getting-Started) section above. We'll add you to the GitHub Organization once you fill out [the form](https://docs.google.com/forms/d/e/1FAIpQLSd4wkSfaajuj3iaVHirqj8L05S3yH7GVGwopufWRMmjif4IDg/viewform?usp=sf_link) letting us know you'd like to contribute. 
 
 ## Branches and Pull Requests
 
@@ -65,10 +65,11 @@ For other technical questions see the safetyGraphics [Technical FAQ](https://git
 - [Cookbook Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/Cookbook) - a series of examples showing how to initialize the safetyGraphics Shiny app in different scenarios
 - [Technical FAQ Vignette](https://github.com/SafetyGraphics/SafetyGraphics/wiki/TechnicalFAQ) - vignette discussing security, validation and other technical issues
 
-## Presentations 
+## Presentations / Workshops
 
 - [Building Open Source Tools for Safety Monitoring: Advancing Research Through Community Collaboration](https://rinpharma.com/publication/rinpharma_105/) Presented by Becca Krouse at R/Pharma 2019 
-- [safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shinyo](https://www.youtube.com/watch?v=2Ykw1jwSw5M) Presented by Jeremy Wildfire at R/Pharma 2020 
+- [safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny](https://www.youtube.com/watch?v=2Ykw1jwSw5M) Presented by Jeremy Wildfire at R/Pharma 2020 
+- safetyGraphics - Chart Framework Workshop @ R/Pharma 2021 - [repo](https://github.com/SafetyGraphics/RPharma2021-Workshop), [slides](https://github.com/SafetyGraphics/RPharma2021-Workshop/blob/main/slides/SafetyGraphicsWorkshop.pptx?raw=true), [video](https://www.youtube.com/watch?v=wa3NHKazyew) 
 
 ## Papers
 

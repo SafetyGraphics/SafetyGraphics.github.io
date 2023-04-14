@@ -1,0 +1,22 @@
+.header-container {
+    background-color: #4CAF50;
+}
+
+.nav-container .nav-link {
+    color: #333;
+}
+
+.nav-container .nav-link:hover {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 100px;
+    padding: 10px;
+}
+
+.footer-container {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e5e5e5;
+}

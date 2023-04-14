@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Safety Graphics</title>
+</head>
+
+<body>
+    <header class="header-container py-2">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="text-white">Interactive Safety Graphics</h1>
+                <img src="https://github.com/SafetyGraphics/safetyGraphics/blob/dev/inst/resources/safetyGraphicsHex.png?raw=true"
+                    alt="Safety Graphics Logo" class="header-logo">
+            </div>
+        </div>
+    </header>
+    <nav class="nav-container bg-light">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#background">Background</a></li>
+                <li class="nav-item"><a class="nav-link" href="#safetygraphics-r-package">SafetyGraphics R Package</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container mt-4">
+<main>
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>Welcome to the Interactive Safety Graphics home page. We make open source interactive graphics for monitoring
+            clinical trial safety. Check out a <a
+                href="https://safetygraphics.github.io/hep-explorer/test-page/example1">sample graphic</a> along with
+            its paired <a
+                href="https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2_1.pdf">clinical
+                workflow</a> based on the medical literature, or explore your own data using the <a
+                href="#safetygraphics-r-package">safetyGraphics R package</a> shown below.</p>
+        <img src="https://user-images.githubusercontent.com/3680095/51296057-e3195380-19df-11e9-971a-430c3be930a4.gif"
+            alt="Safety Graphics Example">
+    </section>
+    <section id="background">
+        <h2>Background</h2>
+        <p>The Interactive Safety Graphics (ISG) subteam of the ASA Biopharm-DIA Safety Working Group is an
+            interdisciplinary effort that, amongst other things, seeks to provide a clinical safety workflow for
+            monitoring during clinical development in an open source model. For more details see:</p>
+        <ul>
+            <li><a href="about">About Page</a> - learn more about our team's motivation and see a full list of team
+                members</li>
+            <li><a href="roadmap">Road Map</a> - learn more about our active and planned projects</li>
+            <li><a href="https://github.com/SafetyGraphics/SafetyGraphics.github.io/blob/master/CONTRIBUTING.md">Contribution
+                    guidelines</a> - learn about how to contribute code to the project</li>
+        </ul>
+    </section>
+    <section id="safetygraphics-r-package">
+        <h2>SafetyGraphics R Package</h2>
+        <p>The safetyGraphics R package makes it easy for users to evaluate their own clinical trial safety data in R.
+            The package provides a simple workflow to load lab data from clinical trials (AdAM or SDTM preferred).</p>
+        <p>To learn more you can:</p>
+        <ul>
+            <li>See the package on <a href="https://cran.r-project.org/web/packages/safetyGraphics/index.html">CRAN</a>
+            </li>
+            <li>Download the <a
+                    href="https://github.com/SafetyGraphics/SafetyGraphics.github.io/raw/master/guide/HepExplorerWorkflow_v1_2_1.pdf">clinical
+                    workflow</a></li>
+            <li>Explore the <a href="https://github.com/SafetyGraphics/safetyGraphics">github repo</a> for the package,
+                or read through the package vignettes:
+                <ul>
+                    <li><a href="https://github.com/SafetyGraphics/SafetyGraphics/wiki/Intro">Intro to
+                            safetyGraphics</a> - Introductory vignette providing the overview of the package.</li>
+                    <li><a href="https://github.com/SafetyGraphics/SafetyGraphics/wiki/ChartConfiguration">Chart
+                            Configuration Vignette</a> - Details about the charting process including technical
+                        specifications and step-by-step instructions</li>
+                    <li><a href="https://github.com/SafetyGraphics/SafetyGraphics/wiki/Cookbook">Cookbook Vignette</a> -
+                        A series of examples showing how to initialize the safetyGraphics Shiny app in different
+                        scenarios
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    </main>
+    <footer class="footer-container py-3">
+        <div class="container">
+            <div class="text-center">
+                <p>&copy; Interactive Safety Graphics - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

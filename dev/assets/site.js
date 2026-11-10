@@ -11,4 +11,26 @@
     root.setAttribute('data-theme', next);
     try { localStorage.setItem('isg-theme', next); } catch (e) {}
   });
+  // The demo clip stands still for anyone who has asked for less motion.
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    [].forEach.call(document.querySelectorAll('video[autoplay]'), function (v) { v.removeAttribute('autoplay'); v.pause(); v.controls = true; });
+  });
+  // News: each button shows or hides one kind of item; a year with nothing left is hidden.
+  document.addEventListener('click', function (ev) {
+    var tog = ev.target.closest && ev.target.closest('.n-tog');
+    var list = document.getElementById('news-list');
+    if (!tog || !list) return;
+    tog.setAttribute('aria-pressed', tog.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+    var hidden = [].filter.call(document.querySelectorAll('.n-tog'), function (b) {
+      return b.getAttribute('aria-pressed') !== 'true';
+    }).map(function (b) { return b.getAttribute('data-kind'); });
+    list.setAttribute('data-hide', hidden.join(' '));
+    [].forEach.call(list.querySelectorAll('.n-year'), function (year) {
+      var left = [].some.call(year.querySelectorAll('.n-item'), function (li) {
+        return hidden.indexOf(li.getAttribute('data-kind')) === -1;
+      });
+      year.hidden = !left;
+    });
+  });
 })();
